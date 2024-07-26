@@ -1,9 +1,4 @@
-export type KafkaConfiguration = {
-  clientId: string;
-  brokers: string[];
-  consumerGroupId: string;
-  topic: string;
-};
+import { KafkaConfiguration } from "../types/kafka";
 
 export const kafkaConfiguration: KafkaConfiguration = {
   clientId: "kafka-listener",
