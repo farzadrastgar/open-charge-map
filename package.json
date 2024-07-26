@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/farzadrastgar/open-charge-map#readme",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "kafkajs": "^2.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.12"
   }
 }
