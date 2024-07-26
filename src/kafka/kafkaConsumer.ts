@@ -29,6 +29,7 @@ export const startConsumer = async (
       const job = parseMessage(payload);
       processMessage(job, topic, partition);
     },
+    autoCommit: false,
   });
 };
 

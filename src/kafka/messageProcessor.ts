@@ -20,11 +20,11 @@ export const processKafkaMessage = async (
 
     // await saveResultsToMongo(poiResults);
 
-    // if (poiResults.length > 10000) {
-    //   const mesh = await computeNewMesh(poiResults);
-    //   await saveMeshToDatabase(mesh);
-    //   await publishMeshToKafka(mesh);
-    // }
+    if (poiResults.length > Number(process.env.MAX_FETCH_BLOCK)) {
+      const mesh = await computeNewMesh(job);
+      //   await saveMeshToDatabase(mesh);
+      //   await publishMeshToKafka(mesh);
+    }
 
     // await payload.consumer.commitOffsets([
     //   { topic, partition, offset: (Number(message.offset) + 1).toString() },
