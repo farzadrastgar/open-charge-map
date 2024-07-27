@@ -13,6 +13,6 @@ db.createUser({
   ],
 });
 
-db.createCollection("mesh_coordinates");
+db.createCollection("jobs");
 db.createCollection("POIs");
 EOF
