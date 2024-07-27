@@ -1,14 +1,14 @@
 set -e
 
 mongosh <<EOF
-use $MONGO_INITDB_DATABASE
+use $MONGO_DB_NAME
 db.createUser({
-  user: '$MONGO_INITDB_ROOT_USERNAME',
-  pwd: '$MONGO_INITDB_ROOT_PASSWORD',
+  user: '$MONGO_DB_ROOT_USERNAME',
+  pwd: '$MONGO_DB_ROOT_PASSWORD',
   roles: [
     {
       role: "readWrite",
-      db: '$MONGO_INITDB_DATABASE',
+      db: '$MONGO_DB_NAME',
     },
   ],
 });
@@ -26,6 +26,6 @@ db.jobs.insertOne({
   ],
   parent_id: null,
   mesh_level: 0,
-  POI_count: null
+  is_active:true,
 });
 EOF

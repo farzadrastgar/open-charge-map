@@ -1,4 +1,4 @@
-import { indexPOIs } from "../db/jobsRepository";
+import { indexPOIs } from "../db/poisRepository";
 import { Job } from "../types/job";
 import { fetchPointsOfInterest } from "../utils/functions";
 import { v4 as uuidv4 } from "uuid";

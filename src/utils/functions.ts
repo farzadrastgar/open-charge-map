@@ -32,9 +32,9 @@ export const computeNewMesh = (job: Job): any => {
             long: j === 0 ? midLon : Math.max(lon1, lon2),
           },
         ],
-        parent_id: job.parent_id,
+        parent_id: job._id,
         mesh_level: job.mesh_level++ || 0,
-        POI_count: null,
+        is_active: true,
       });
     }
   }

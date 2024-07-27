@@ -10,5 +10,5 @@ export type Job = {
   bounding_box: BoundingBox[];
   parent_id: string | null;
   mesh_level: number;
-  POI_count: number | null;
+  is_active: boolean;
 };
