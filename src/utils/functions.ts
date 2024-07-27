@@ -2,7 +2,7 @@ import axios from "axios";
 import { Job } from "../types/job";
 import { v4 as uuidv4 } from "uuid";
 
-export const computeNewMesh = (job: Job): any => {
+export const createJobsWithSmallerMesh = (job: Job): any => {
   const lat1 = job.bounding_box[0].lat;
   const lon1 = job.bounding_box[0].long;
   const lat2 = job.bounding_box[1].lat;

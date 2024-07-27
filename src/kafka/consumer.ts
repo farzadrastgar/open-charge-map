@@ -8,6 +8,8 @@ const consumer: Consumer = kafka.consumer({
 
 export const startConsumer = async (): Promise<void> => {
   await consumer.connect();
+  console.log("Consumer is connected");
+
   await consumer.subscribe({
     topic: kafkaConfiguration.topic,
     fromBeginning: false,

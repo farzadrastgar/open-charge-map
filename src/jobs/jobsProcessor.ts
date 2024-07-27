@@ -1,6 +1,10 @@
+import { updateJobs } from "../db/jobsRepository";
 import { indexPOIs } from "../db/poisRepository";
 import { Job } from "../types/job";
-import { fetchPointsOfInterest } from "../utils/functions";
+import {
+  createJobsWithSmallerMesh,
+  fetchPointsOfInterest,
+} from "../utils/functions";
 import { v4 as uuidv4 } from "uuid";
 
 export const processJob = async (
@@ -11,11 +15,15 @@ export const processJob = async (
   console.log(`Received message: ${job._id},${topic}`);
   const poiResults = await fetchPointsOfInterest(job);
 
-  poiResults.map((poi: any) => {
-    return { ...poi, jobId: job._id, _id: uuidv4() };
-  });
+  if (poiResults.length == process.env.MAX_FETCH_BLOCK) {
+    const newJobs = createJobsWithSmallerMesh(job);
+    await updateJobs(newJobs, job);
+    //produce jobs to fetch_topic
+  } else {
+    const pois = poiResults.map((poi: any) => {
+      return { ...poi, jobId: job._id, _id: uuidv4() };
+    });
 
-  console.log(poiResults);
-
-  await indexPOIs(poiResults, job._id);
+    await indexPOIs(pois, job._id);
+  }
 };

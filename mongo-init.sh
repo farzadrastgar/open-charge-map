@@ -1,14 +1,14 @@
 set -e
 
 mongosh <<EOF
-use $MONGO_DB_NAME
+use $MONGO_INITDB_DATABASE
 db.createUser({
-  user: '$MONGO_DB_ROOT_USERNAME',
-  pwd: '$MONGO_DB_ROOT_PASSWORD',
+  user: '$MONGO_INITDB_ROOT_USERNAME',
+  pwd: '$MONGO_INITDB_ROOT_PASSWORD',
   roles: [
     {
       role: "readWrite",
-      db: '$MONGO_DB_NAME',
+      db: '$MONGO_INITDB_DATABASE',
     },
   ],
 });

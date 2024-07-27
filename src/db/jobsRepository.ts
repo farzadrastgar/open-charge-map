@@ -1,31 +1,36 @@
-import { MongoClient, ClientSession } from "mongodb";
+import { MongoClient, Binary, AnyBulkWriteOperation } from "mongodb";
 import { getDb } from "./dbConnection";
 import { getDbClient } from "../config/mongoConfig";
 import { Job } from "../types/job";
+import { v4 as uuidv4 } from "uuid";
 
-export const updateJobs = async (jobs: Job[], parentJob: Job) => {
-  //   const db = await getDb();
-  //   const collection = db.collection("jobs");
-  //   const client = getDbClient() as MongoClient;
-  //   const session: ClientSession = client.startSession();
-  //   try {
-  //     session.startTransaction();
-  //     // Perform bulk upserts
-  //     const upsertOperations = jobs.map((job) => ({
-  //       updateOne: {
-  //         filter: { _id: job._id },
-  //         update: { $set: job },
-  //         upsert: true,
-  //       },
-  //     }));
-  //     await collection.bulkWrite(upsertOperations, { session });
-  //     await session.commitTransaction();
-  //     console.log("Transaction committed successfully");
-  //   } catch (error) {
-  //     console.error("Error during transaction:", error);
-  //     await session.abortTransaction();
-  //     throw error;
-  //   } finally {
-  //     session.endSession();
-  //   }
+interface Document {
+  _id?: string;
+  [key: string]: any;
+}
+
+export const updateJobs = async (newJobs: Job[], parentJob: Job) => {
+  const db = await getDb();
+  const collection = db.collection("jobs");
+  parentJob.is_active = false;
+
+  const jobs = [...newJobs, parentJob];
+
+  try {
+    // Perform bulk upserts
+    const upsertOperations: AnyBulkWriteOperation<Document>[] = jobs.map(
+      (job) => ({
+        updateOne: {
+          filter: { _id: job._id },
+          update: { $set: job },
+          upsert: true,
+        },
+      })
+    );
+
+    await collection.bulkWrite(upsertOperations);
+  } catch (error) {
+    console.error("Error during transaction:", error);
+    throw error;
+  }
 };
