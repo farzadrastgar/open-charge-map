@@ -1,5 +1,6 @@
 import axios from "axios";
 import { Job } from "../types/job";
+import { v4 as uuidv4 } from "uuid";
 
 export const computeNewMesh = (job: Job): any => {
   const lat1 = job.bounding_box[0].lat;
@@ -18,6 +19,7 @@ export const computeNewMesh = (job: Job): any => {
   for (let i = 0; i < 2; i++) {
     for (let j = 0; j < 2; j++) {
       newJobs.push({
+        _id: uuidv4(),
         type: job.type,
         country: job.country,
         bounding_box: [

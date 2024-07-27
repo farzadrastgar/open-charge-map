@@ -20,9 +20,11 @@
     "axios": "^1.7.2",
     "dotenv": "^16.4.5",
     "kafkajs": "^2.2.4",
-    "mongodb": "^6.8.0"
+    "mongodb": "^6.8.0",
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
-    "@types/node": "^20.14.12"
+    "@types/node": "^20.14.12",
+    "@types/uuid": "^10.0.0"
   }
 }

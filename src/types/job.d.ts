@@ -4,6 +4,7 @@ type BoundingBox = {
 };
 
 export type Job = {
+  _id: string;
   type: string;
   country: string;
   bounding_box: BoundingBox[];
