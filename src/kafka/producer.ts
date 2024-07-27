@@ -9,11 +9,11 @@ export const startProducer = async () => {
 };
 
 export const sendMessage = async (
-  producer: Producer,
-  message: { value: string }
+  topic: string,
+  messages: string[]
 ): Promise<void> => {
   await producer.send({
-    topic: kafkaConfiguration.topic,
-    messages: [message],
+    topic,
+    messages: messages.map((message) => ({ value: message })),
   });
 };
