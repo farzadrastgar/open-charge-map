@@ -28,6 +28,7 @@ export const startConsumer = async (): Promise<void> => {
       try {
         const job = JSON.parse(message.value?.toString() || "{}");
         await processJob(job);
+        console.log("Commiting offsets:", message.offset);
         await consumer.commitOffsets([
           {
             topic,
