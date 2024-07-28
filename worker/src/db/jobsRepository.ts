@@ -1,8 +1,7 @@
-import { MongoClient, Binary, AnyBulkWriteOperation } from "mongodb";
+import { AnyBulkWriteOperation } from "mongodb";
 import { getDb } from "./dbConnection";
 import { getDbClient } from "../config/mongoConfig";
 import { Job } from "../types/job";
-import { v4 as uuidv4 } from "uuid";
 
 interface Document {
   _id?: string;

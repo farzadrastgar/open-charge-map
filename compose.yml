@@ -1,6 +1,19 @@
 version: "3.8"
 
 services:
+  worker:
+    build: ./worker
+    env_file:
+      - .env
+    command: npm run start
+    networks:
+      - mynetwork
+    depends_on:
+      kafka1:
+        condition: service_healthy
+      mongodb:
+        condition: service_healthy
+
   mongodb:
     image: mongo
     container_name: mongodb
@@ -11,9 +24,17 @@ services:
       MONGO_INITDB_ROOT_USERNAME: ${MONGO_DB_ROOT_USERNAME}
       MONGO_INITDB_ROOT_PASSWORD: ${MONGO_DB_ROOT_PASSWORD}
       MONGO_INITDB_DATABASE: ${MONGO_DB_NAME}
+    healthcheck:
+      test: echo 'db.runCommand("ping").ok' | mongosh localhost:27017/test --quiet
+      interval: 10s
+      timeout: 10s
+      retries: 5
+      start_period: 40s
     volumes:
       - ./mongo-init.sh:/docker-entrypoint-initdb.d/mongo-init.sh:ro
       - mongodb_data:/data/db
+    networks:
+      - mynetwork
 
   zoo1:
     image: confluentinc/cp-zookeeper:7.3.2
@@ -50,6 +71,12 @@ services:
       KAFKA_JMX_HOSTNAME: ${DOCKER_HOST_IP:-127.0.0.1}
       KAFKA_AUTHORIZER_CLASS_NAME: kafka.security.authorizer.AclAuthorizer
       KAFKA_ALLOW_EVERYONE_IF_NO_ACL_FOUND: "true"
+      KAFKA_CREATE_TOPICS: "Topic1:1:1,Topic2:1:1:compact"
+    healthcheck:
+      test: kafka-topics --bootstrap-server kafka1:9092 --list
+      interval: 30s
+      timeout: 10s
+      retries: 3
     networks:
       - mynetwork
     depends_on:

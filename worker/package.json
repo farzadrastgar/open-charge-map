@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/index.js",
+    "build": "tsc ./src/index.ts",
+    "dev": "ts-node src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.14.12",
-    "@types/uuid": "^10.0.0"
+    "@types/uuid": "^10.0.0",
+    "typescript": "^5.5.4"
   }
 }
