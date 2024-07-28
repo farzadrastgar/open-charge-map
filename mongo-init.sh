@@ -19,10 +19,10 @@ db.createCollection("pois");
 db.jobs.insertOne({
   _id: "e1c55ad4-3e4b-4d5a-9339-978f7921b0d5",
   type: "country",
-  country: "US",
+  country: "DE",
   bounding_box: [
-    { lat: 49.384358, long: -125.0 },
-    { lat: 24.396308, long: -66.93457 }
+    { lat: 56, long: 5 },
+    { lat: 46, long: 16 }
   ],
   parent_id: null,
   mesh_level: 0,

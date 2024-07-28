@@ -9,14 +9,10 @@ import {
 } from "../utils/functions";
 import { v4 as uuidv4 } from "uuid";
 
-export const processJob = async (
-  job: Job,
-  topic: string,
-  partition: number
-): Promise<any> => {
-  console.log(`Received message: ${job._id},${topic}`);
+export const processJob = async (job: Job): Promise<any> => {
+  console.log(`Received message: ${job._id}`);
   const poiResults = await fetchPointsOfInterest(job);
-
+  console.log(poiResults.length);
   if (poiResults.length == process.env.MAX_FETCH_BLOCK) {
     const newJobs = createJobsWithSmallerMesh(job);
     await updateJobs(newJobs, job);
@@ -27,7 +23,7 @@ export const processJob = async (
       kafkaConfiguration.topic,
       newJobs.map((obj: Job) => JSON.stringify(obj))
     );
-  } else {
+  } else if (poiResults.length !== 0) {
     const pois = poiResults.map((poi: any) => {
       return { ...poi, jobId: job._id, _id: uuidv4() };
     });

@@ -25,8 +25,19 @@ export const startConsumer = async (): Promise<void> => {
       partition: number;
       message: KafkaMessage;
     }) => {
-      const job = JSON.parse(message.value?.toString() || "{}");
-      await processJob(job, topic, partition);
+      try {
+        const job = JSON.parse(message.value?.toString() || "{}");
+        await processJob(job);
+        await consumer.commitOffsets([
+          {
+            topic,
+            partition,
+            offset: (parseInt(message.offset, 10) + 1).toString(),
+          },
+        ]);
+      } catch (err) {
+        console.log("Error in eachMessage", err);
+      }
     },
     autoCommit: false,
   });

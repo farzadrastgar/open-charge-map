@@ -14,9 +14,8 @@ export const indexPOIs = async (pois: Poi[], jobId: string) => {
 
     // Perform bulk upserts
     const upsertOperations = pois.map((poi) => ({
-      updateOne: {
-        filter: { UUID: poi.UUID },
-        update: { $set: poi },
+      insertOne: {
+        document: poi,
       },
     }));
     await collection.bulkWrite(upsertOperations);
