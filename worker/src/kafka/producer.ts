@@ -5,6 +5,9 @@ const producer: Producer = kafka.producer({
   retry: {
     initialRetryTime: 100, // Initial wait time before retrying in milliseconds
     retries: 8, // Number of retry attempts
+    factor: 0.2,
+    multiplier: 2,
+    maxRetryTime: 5000,
   },
 });
 

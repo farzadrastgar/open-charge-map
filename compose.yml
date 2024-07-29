@@ -18,7 +18,7 @@ services:
     build: ./worker
     env_file:
       - .env
-    command: npm run start
+    command: sh -c "sleep 20 && npm run start"
     networks:
       - mynetwork
     depends_on:
@@ -84,9 +84,14 @@ services:
       KAFKA_JMX_HOSTNAME: ${DOCKER_HOST_IP:-127.0.0.1}
       KAFKA_AUTHORIZER_CLASS_NAME: kafka.security.authorizer.AclAuthorizer
       KAFKA_ALLOW_EVERYONE_IF_NO_ACL_FOUND: "true"
-      KAFKA_CREATE_TOPICS: "Topic1:1:1,Topic2:1:1:compact"
     healthcheck:
-      test: kafka-topics --bootstrap-server kafka1:9092 --list
+      test:
+        [
+          "CMD",
+          "sh",
+          "-c",
+          "kafka-topics --bootstrap-server kafka1:9092 --list > /dev/null 2>&1 && kafka-broker-api-versions --bootstrap-server kafka1:9092 | grep 'LeaderAndIsr' > /dev/null 2>&1",
+        ]
       interval: 30s
       timeout: 10s
       retries: 3
