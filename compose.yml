@@ -5,7 +5,7 @@ services:
     build: ./scheduler
     env_file:
       - .env
-    command: npm run start
+    command: sh -c "sleep 20 && npm run start"
     networks:
       - mynetwork
     depends_on:
@@ -18,7 +18,7 @@ services:
     build: ./worker
     env_file:
       - .env
-    command: sh -c "sleep 20 && npm run start"
+    command: npm run start
     networks:
       - mynetwork
     depends_on:

@@ -24,6 +24,7 @@ export const sendMessage = async (
     await producer.send({
       topic,
       messages: messages.map((message) => ({ value: message })),
+      acks: -1,
     });
   } catch (err) {
     console.log("Error in sendMessage to kafka", err);

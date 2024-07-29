@@ -13,7 +13,7 @@ export const getJobs = async () => {
     const db = await getDb();
     const collection = db.collection<Job>("jobs");
 
-    return await collection.find({}).toArray();
+    return await collection.find({ is_active: true }).toArray();
   } catch (error) {
     console.error("Error during transaction:", error);
     throw error;
