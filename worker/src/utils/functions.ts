@@ -2,44 +2,49 @@ import axios from "axios";
 import { Job } from "../types/job";
 import { v4 as uuidv4 } from "uuid";
 
-export const createJobsWithSmallerMesh = (job: Job): any => {
-  const lat1 = job.bounding_box[0].lat;
-  const lon1 = job.bounding_box[0].long;
-  const lat2 = job.bounding_box[1].lat;
-  const lon2 = job.bounding_box[1].long;
+export const createJobsWithSmallerMesh = (job: Job): Job[] => {
+  const [lat1, lon1] = [job.bounding_box[0].lat, job.bounding_box[0].long];
+  const [lat2, lon2] = [job.bounding_box[1].lat, job.bounding_box[1].long];
 
-  // Calculate the midpoints
-  const midLat = (lat1 + lat2) / 2;
-  const midLon = (lon1 + lon2) / 2;
+  const isWider = Math.abs(lon2 - lon1) > Math.abs(lat2 - lat1);
+  const [midLat, midLon] = [(lat1 + lat2) / 2, (lon1 + lon2) / 2];
 
-  // Initialize the list of regions
-  const newJobs: Job[] = [];
-
-  // Use nested loops to create the four sub-regions
-  for (let i = 0; i < 2; i++) {
-    for (let j = 0; j < 2; j++) {
-      newJobs.push({
-        _id: uuidv4(),
-        type: job.type,
-        country: job.country,
-        bounding_box: [
-          {
-            lat: i === 0 ? Math.max(lat1, lat2) : midLat,
-            long: j === 0 ? Math.min(lon1, lon2) : midLon,
-          },
-          {
-            lat: i === 0 ? midLat : Math.min(lat1, lat2),
-            long: j === 0 ? midLon : Math.max(lon1, lon2),
-          },
-        ],
-        parent_id: job._id,
-        mesh_level: job.mesh_level++ || 0,
-        is_active: true,
-      });
-    }
-  }
-
-  return newJobs;
+  return [
+    {
+      _id: uuidv4(),
+      type: job.type,
+      country: job.country,
+      bounding_box: isWider
+        ? [
+            { lat: lat1, long: lon1 },
+            { lat: lat2, long: midLon },
+          ]
+        : [
+            { lat: lat1, long: lon1 },
+            { lat: midLat, long: lon2 },
+          ],
+      parent_id: job._id,
+      mesh_level: (job.mesh_level || 0) + 1,
+      is_active: true,
+    },
+    {
+      _id: uuidv4(),
+      type: job.type,
+      country: job.country,
+      bounding_box: isWider
+        ? [
+            { lat: lat1, long: midLon },
+            { lat: lat2, long: lon2 },
+          ]
+        : [
+            { lat: midLat, long: lon1 },
+            { lat: lat2, long: lon2 },
+          ],
+      parent_id: job._id,
+      mesh_level: (job.mesh_level || 0) + 1,
+      is_active: true,
+    },
+  ];
 };
 
 export const fetchPointsOfInterest = async (jobData: Job) => {
