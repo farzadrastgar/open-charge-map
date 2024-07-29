@@ -66,9 +66,31 @@ export const fetchPointsOfInterest = async (jobData: Job) => {
 
   try {
     const response = await axios.get(API_URL, { params });
+    console.log("POI Count:", response.data.length);
+    console.log("Bounding Box:", jobData.bounding_box);
     return response.data;
   } catch (error) {
     console.error("Error fetching data:", error);
     throw error;
+  }
+};
+
+export const retryOperation = async (
+  operation: () => Promise<void>,
+  retries: number,
+  delay: number
+): Promise<void> => {
+  for (let attempt = 0; attempt < retries; attempt++) {
+    try {
+      console.log("Attempt:", attempt + 1);
+      await operation();
+      return; // Exit if the operation is successful
+    } catch (err) {
+      if (attempt < retries - 1) {
+        await new Promise((res) => setTimeout(res, delay)); // Wait before retrying
+      } else {
+        throw err; // Rethrow after final attempt
+      }
+    }
   }
 };
