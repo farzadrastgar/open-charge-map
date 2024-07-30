@@ -70,7 +70,7 @@ describe("updateJobs", () => {
     expect(mockCollection.bulkWrite).toHaveBeenCalledWith(expectedOperations);
   });
 
-  it.only("should handle errors", async () => {
+  it("should handle errors", async () => {
     const newJobs: Job[] = [
       {
         _id: "1",
