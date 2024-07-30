@@ -1,6 +1,6 @@
 import { kafkaConfiguration } from "../config/kafkaConfig";
-import { updateJobs } from "../db/jobsRepository";
-import { indexPOIs } from "../db/poisRepository";
+import { updateJobs } from "../repositories/jobsRepository";
+import { indexPOIs } from "../repositories/poisRepository";
 import { sendMessage } from "../kafka/producer";
 import { Job } from "../types/job";
 import {

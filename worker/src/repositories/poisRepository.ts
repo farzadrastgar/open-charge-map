@@ -1,6 +1,6 @@
-import { getDb } from "./dbConnection";
+import { getDb } from "../utils/dbConnection";
 import { Poi } from "../types/poi";
-import { AnyBulkWriteOperation, BulkWriteOptions } from "mongodb";
+import { AnyBulkWriteOperation } from "mongodb";
 
 interface Document {
   _id?: string;

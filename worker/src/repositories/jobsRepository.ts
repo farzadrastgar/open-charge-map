@@ -1,6 +1,5 @@
 import { AnyBulkWriteOperation } from "mongodb";
-import { getDb } from "./dbConnection";
-import { getDbClient } from "../config/mongoConfig";
+import { getDb } from "../utils/dbConnection";
 import { Job } from "../types/job";
 
 interface Document {
