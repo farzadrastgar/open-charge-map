@@ -1,0 +1,106 @@
+version: "3.8"
+
+services:
+  mock-server:
+    image: clue/json-server
+    volumes:
+      - ./worker/src/tests/e2e/mock-data.json:/data.json
+    networks:
+      - mynetwork_test
+    ports:
+      - "3000:3000"
+    command: -H 0.0.0.0 /data.json
+
+  worker:
+    build: ./worker
+    env_file:
+      - .env
+    command: npm run start
+    networks:
+      - mynetwork_test
+    depends_on:
+      kafka1:
+        condition: service_healthy
+      mongodb:
+        condition: service_healthy
+
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_DB_ROOT_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_DB_ROOT_PASSWORD}
+      MONGO_INITDB_DATABASE: ${MONGO_DB_NAME}
+    healthcheck:
+      test: echo 'db.runCommand("ping").ok' | mongosh localhost:27017/test --quiet
+      interval: 10s
+      timeout: 10s
+      retries: 5
+      start_period: 40s
+    volumes:
+      - ./mongo-init.sh:/docker-entrypoint-initdb.d/mongo-init.sh:ro
+      - mongodb_data_test:/data/db
+    networks:
+      - mynetwork_test
+
+  zoo1:
+    image: confluentinc/cp-zookeeper:7.3.2
+    hostname: zoo1
+    container_name: zoo1
+    ports:
+      - "2181:2181"
+    networks:
+      - mynetwork_test
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_SERVER_ID: 1
+      ZOOKEEPER_SERVERS: zoo1:2888:3888
+
+  kafka1:
+    image: confluentinc/cp-kafka:7.3.2
+    hostname: kafka1
+    container_name: kafka1
+    ports:
+      - "9092:9092"
+      - "29092:29092"
+      - "9999:9999"
+    environment:
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka1:9092,DOCKER://host.docker.internal:29092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,DOCKER:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_ZOOKEEPER_CONNECT: "zoo1:2181"
+      KAFKA_BROKER_ID: 1
+      KAFKA_LOG4J_LOGGERS: "kafka.controller=INFO,kafka.producer.async.DefaultEventHandler=INFO,state.change.logger=INFO"
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_JMX_PORT: 9999
+      KAFKA_JMX_HOSTNAME: ${DOCKER_HOST_IP:-127.0.0.1}
+      KAFKA_AUTHORIZER_CLASS_NAME: kafka.security.authorizer.AclAuthorizer
+      KAFKA_ALLOW_EVERYONE_IF_NO_ACL_FOUND: "true"
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "sh",
+          "-c",
+          "kafka-topics --bootstrap-server kafka1:9092 --list > /dev/null 2>&1 && kafka-broker-api-versions --bootstrap-server kafka1:9092 | grep 'LeaderAndIsr' > /dev/null 2>&1",
+        ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+    networks:
+      - mynetwork_test
+    depends_on:
+      - zoo1
+volumes:
+  mongodb_data_test:
+
+networks:
+  mynetwork_test:
+    driver: bridge

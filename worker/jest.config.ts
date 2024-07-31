@@ -9,5 +9,6 @@ module.exports = {
       useESM: true,
     },
   },
+  setupFilesAfterEnv: ["<rootDir>/jest.setup.ts"],
   transformIgnorePatterns: ["/node_modules/(?!uuid)"], // Ensures uuid module is transformed
 };
