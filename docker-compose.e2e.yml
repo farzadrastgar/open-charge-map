@@ -15,19 +15,17 @@ services:
         condition: service_healthy
 
   mock_server_test:
-    image: clue/json-server
-    volumes:
-      - ./worker/tests/e2e/mock-data.json:/data.json
+    image: mockserver/mockserver
+    container_name: mockserver
+    ports:
+      - "1080:1080"
     networks:
       - mynetwork_test
-    ports:
-      - "3000:80"
-    command: -H 0.0.0.0 /data.json
 
   worker_test:
     build: ./worker
     env_file:
-      - .env
+      - .env.test
     environment:
       API_URL: mock_server_test:3000/poi
     command: npm run start
@@ -45,7 +43,7 @@ services:
       - "27017:27017"
     restart: unless-stopped
     env_file:
-      - .env
+      - .env.test
     environment:
       MONGO_INITDB_ROOT_USERNAME: ${MONGO_DB_ROOT_USERNAME}
       MONGO_INITDB_ROOT_PASSWORD: ${MONGO_DB_ROOT_PASSWORD}
