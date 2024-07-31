@@ -1,17 +1,17 @@
 version: "3.8"
 
 services:
-  mock-server:
+  mock_server_test:
     image: clue/json-server
     volumes:
-      - ./worker/src/tests/e2e/mock-data.json:/data.json
+      - ./worker/tests/e2e/mock-data.json:/data.json
     networks:
       - mynetwork_test
     ports:
-      - "3000:3000"
+      - "3000:80"
     command: -H 0.0.0.0 /data.json
 
-  worker:
+  worker_test:
     build: ./worker
     env_file:
       - .env
@@ -19,14 +19,13 @@ services:
     networks:
       - mynetwork_test
     depends_on:
-      kafka1:
+      kafka1_test:
         condition: service_healthy
-      mongodb:
+      mongodb_test:
         condition: service_healthy
 
-  mongodb:
+  mongodb_test:
     image: mongo
-    container_name: mongodb
     ports:
       - "27017:27017"
     restart: unless-stopped
@@ -46,10 +45,9 @@ services:
     networks:
       - mynetwork_test
 
-  zoo1:
+  zoo1_test:
     image: confluentinc/cp-zookeeper:7.3.2
     hostname: zoo1
-    container_name: zoo1
     ports:
       - "2181:2181"
     networks:
@@ -59,10 +57,9 @@ services:
       ZOOKEEPER_SERVER_ID: 1
       ZOOKEEPER_SERVERS: zoo1:2888:3888
 
-  kafka1:
+  kafka1_test:
     image: confluentinc/cp-kafka:7.3.2
     hostname: kafka1
-    container_name: kafka1
     ports:
       - "9092:9092"
       - "29092:29092"
@@ -97,7 +94,7 @@ services:
     networks:
       - mynetwork_test
     depends_on:
-      - zoo1
+      - zoo1_test
 volumes:
   mongodb_data_test:
 

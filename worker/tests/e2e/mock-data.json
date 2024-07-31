@@ -1,2237 +1,2239 @@
-[
-  {
-    "DataProvider": {
-      "WebsiteURL": "http://openchargemap.org",
-      "Comments": null,
-      "DataProviderStatusType": {
-        "IsProviderEnabled": true,
-        "ID": 1,
-        "Title": "Manual Data Entry"
-      },
-      "IsRestrictedEdit": false,
-      "IsOpenDataLicensed": true,
-      "IsApprovedImport": true,
-      "License": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
-      "DateLastImported": null,
-      "ID": 1,
-      "Title": "Open Charge Map Contributors"
-    },
-    "OperatorInfo": {
-      "WebsiteURL": "https://eneldrive.enelx.com/",
-      "Comments": "IT*ELX",
-      "PhonePrimaryContact": null,
-      "PhoneSecondaryContact": null,
-      "IsPrivateIndividual": false,
-      "AddressInfo": null,
-      "BookingURL": null,
-      "ContactEmail": null,
-      "FaultReportEmail": null,
-      "IsRestrictedEdit": false,
-      "ID": 80,
-      "Title": "Enel X"
-    },
-    "UsageType": {
-      "IsPayAtLocation": null,
-      "IsMembershipRequired": null,
-      "IsAccessKeyRequired": null,
-      "ID": 1,
-      "Title": "Public"
-    },
-    "StatusType": {
-      "IsOperational": true,
-      "IsUserSelectable": true,
-      "ID": 50,
-      "Title": "Operational"
-    },
-    "SubmissionStatus": {
-      "IsLive": true,
-      "ID": 200,
-      "Title": "Submission Published"
-    },
-    "UserComments": [
-      {
-        "ID": 29894,
-        "ChargePointID": 302192,
-        "CommentTypeID": 10,
-        "CommentType": {
-          "ID": 10,
-          "Title": "General Comment"
+{
+  "poi": [
+    {
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
         },
-        "UserName": "ForumElettrico.it",
-        "Comment": "Situata accanto al parcheggio dell'IKEA, ma il punto di interesse più importante credo sia il centro commerciale Gran Reno, dotato di diversi negozi e servizi. Leggi la recensione completa qui > https://www.forumelettrico.it/forum/colonnina-enel-x-way-fast-ikea-casalecchio-di-reno-bo-via-marilyn-monroe-t38486.html",
-        "Rating": null,
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "DateLastImported": null,
+        "ID": 1,
+        "Title": "Open Charge Map Contributors"
+      },
+      "OperatorInfo": {
+        "WebsiteURL": "https://eneldrive.enelx.com/",
+        "Comments": "IT*ELX",
+        "PhonePrimaryContact": null,
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": false,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": null,
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": false,
+        "ID": 80,
+        "Title": "Enel X"
+      },
+      "UsageType": {
+        "IsPayAtLocation": null,
+        "IsMembershipRequired": null,
+        "IsAccessKeyRequired": null,
+        "ID": 1,
+        "Title": "Public"
+      },
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
+      },
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": [
+        {
+          "ID": 29894,
+          "ChargePointID": 302192,
+          "CommentTypeID": 10,
+          "CommentType": {
+            "ID": 10,
+            "Title": "General Comment"
+          },
+          "UserName": "ForumElettrico.it",
+          "Comment": "Situata accanto al parcheggio dell'IKEA, ma il punto di interesse più importante credo sia il centro commerciale Gran Reno, dotato di diversi negozi e servizi. Leggi la recensione completa qui > https://www.forumelettrico.it/forum/colonnina-enel-x-way-fast-ikea-casalecchio-di-reno-bo-via-marilyn-monroe-t38486.html",
+          "Rating": null,
+          "RelatedURL": "https://www.forumelettrico.it/forum/colonnina-enel-x-way-fast-ikea-casalecchio-di-reno-bo-via-marilyn-monroe-t38486.html",
+          "DateCreated": "2024-07-30T13:02:25.583Z",
+          "User": {
+            "ID": 11749,
+            "IdentityProvider": null,
+            "Identifier": null,
+            "CurrentSessionToken": null,
+            "Username": "ForumElettrico.it",
+            "Profile": null,
+            "Location": null,
+            "WebsiteURL": null,
+            "ReputationPoints": 19704,
+            "Permissions": null,
+            "PermissionsRequested": null,
+            "DateCreated": null,
+            "DateLastLogin": null,
+            "IsProfilePublic": null,
+            "IsEmergencyChargingProvider": null,
+            "IsPublicChargingProvider": null,
+            "Latitude": null,
+            "Longitude": null,
+            "EmailAddress": null,
+            "EmailHash": null,
+            "ProfileImageURL": "https://www.gravatar.com/avatar/8f482f7e667741b53f05b06210bca268?s=80&d=robohash",
+            "IsCurrentSessionTokenValid": null,
+            "APIKey": null,
+            "SyncedSettings": null
+          },
+          "CheckinStatusTypeID": 10,
+          "CheckinStatusType": {
+            "IsPositive": true,
+            "IsAutomatedCheckin": false,
+            "ID": 10,
+            "Title": "Charged Successfully"
+          },
+          "IsActionedByEditor": false
+        }
+      ],
+      "PercentageSimilarity": null,
+      "MediaItems": [
+        {
+          "ID": 43116,
+          "ChargePointID": 302192,
+          "ItemURL": "https://media.openchargemap.io/images/IT/OCM302192/OCM-302192.orig.2024073013023649.jpg",
+          "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM302192/OCM-302192.thmb.2024073013023649.jpg",
+          "Comment": "",
+          "IsEnabled": true,
+          "IsVideo": false,
+          "IsFeaturedItem": false,
+          "IsExternalResource": false,
+          "MetadataValue": null,
+          "User": {
+            "ID": 11749,
+            "IdentityProvider": null,
+            "Identifier": null,
+            "CurrentSessionToken": null,
+            "Username": "ForumElettrico.it",
+            "Profile": null,
+            "Location": null,
+            "WebsiteURL": null,
+            "ReputationPoints": 19704,
+            "Permissions": null,
+            "PermissionsRequested": null,
+            "DateCreated": null,
+            "DateLastLogin": null,
+            "IsProfilePublic": null,
+            "IsEmergencyChargingProvider": null,
+            "IsPublicChargingProvider": null,
+            "Latitude": null,
+            "Longitude": null,
+            "EmailAddress": null,
+            "EmailHash": null,
+            "ProfileImageURL": "https://www.gravatar.com/avatar/8f482f7e667741b53f05b06210bca268?s=80&d=robohash",
+            "IsCurrentSessionTokenValid": null,
+            "APIKey": null,
+            "SyncedSettings": null
+          },
+          "DateCreated": "2024-07-30T13:03:00Z"
+        },
+        {
+          "ID": 43117,
+          "ChargePointID": 302192,
+          "ItemURL": "https://media.openchargemap.io/images/IT/OCM302192/OCM-302192.orig.2024073013024529.jpg",
+          "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM302192/OCM-302192.thmb.2024073013024529.jpg",
+          "Comment": "",
+          "IsEnabled": true,
+          "IsVideo": false,
+          "IsFeaturedItem": false,
+          "IsExternalResource": false,
+          "MetadataValue": null,
+          "User": {
+            "ID": 11749,
+            "IdentityProvider": null,
+            "Identifier": null,
+            "CurrentSessionToken": null,
+            "Username": "ForumElettrico.it",
+            "Profile": null,
+            "Location": null,
+            "WebsiteURL": null,
+            "ReputationPoints": 19704,
+            "Permissions": null,
+            "PermissionsRequested": null,
+            "DateCreated": null,
+            "DateLastLogin": null,
+            "IsProfilePublic": null,
+            "IsEmergencyChargingProvider": null,
+            "IsPublicChargingProvider": null,
+            "Latitude": null,
+            "Longitude": null,
+            "EmailAddress": null,
+            "EmailHash": null,
+            "ProfileImageURL": "https://www.gravatar.com/avatar/8f482f7e667741b53f05b06210bca268?s=80&d=robohash",
+            "IsCurrentSessionTokenValid": null,
+            "APIKey": null,
+            "SyncedSettings": null
+          },
+          "DateCreated": "2024-07-30T13:03:00Z"
+        },
+        {
+          "ID": 43118,
+          "ChargePointID": 302192,
+          "ItemURL": "https://media.openchargemap.io/images/IT/OCM302192/OCM-302192.orig.2024073013025221.jpg",
+          "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM302192/OCM-302192.thmb.2024073013025221.jpg",
+          "Comment": "",
+          "IsEnabled": true,
+          "IsVideo": false,
+          "IsFeaturedItem": false,
+          "IsExternalResource": false,
+          "MetadataValue": null,
+          "User": {
+            "ID": 11749,
+            "IdentityProvider": null,
+            "Identifier": null,
+            "CurrentSessionToken": null,
+            "Username": "ForumElettrico.it",
+            "Profile": null,
+            "Location": null,
+            "WebsiteURL": null,
+            "ReputationPoints": 19704,
+            "Permissions": null,
+            "PermissionsRequested": null,
+            "DateCreated": null,
+            "DateLastLogin": null,
+            "IsProfilePublic": null,
+            "IsEmergencyChargingProvider": null,
+            "IsPublicChargingProvider": null,
+            "Latitude": null,
+            "Longitude": null,
+            "EmailAddress": null,
+            "EmailHash": null,
+            "ProfileImageURL": "https://www.gravatar.com/avatar/8f482f7e667741b53f05b06210bca268?s=80&d=robohash",
+            "IsCurrentSessionTokenValid": null,
+            "APIKey": null,
+            "SyncedSettings": null
+          },
+          "DateCreated": "2024-07-30T13:03:00Z"
+        },
+        {
+          "ID": 43119,
+          "ChargePointID": 302192,
+          "ItemURL": "https://media.openchargemap.io/images/IT/OCM302192/OCM-302192.orig.2024073013025862.jpg",
+          "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM302192/OCM-302192.thmb.2024073013025862.jpg",
+          "Comment": "",
+          "IsEnabled": true,
+          "IsVideo": false,
+          "IsFeaturedItem": false,
+          "IsExternalResource": false,
+          "MetadataValue": null,
+          "User": {
+            "ID": 11749,
+            "IdentityProvider": null,
+            "Identifier": null,
+            "CurrentSessionToken": null,
+            "Username": "ForumElettrico.it",
+            "Profile": null,
+            "Location": null,
+            "WebsiteURL": null,
+            "ReputationPoints": 19704,
+            "Permissions": null,
+            "PermissionsRequested": null,
+            "DateCreated": null,
+            "DateLastLogin": null,
+            "IsProfilePublic": null,
+            "IsEmergencyChargingProvider": null,
+            "IsPublicChargingProvider": null,
+            "Latitude": null,
+            "Longitude": null,
+            "EmailAddress": null,
+            "EmailHash": null,
+            "ProfileImageURL": "https://www.gravatar.com/avatar/8f482f7e667741b53f05b06210bca268?s=80&d=robohash",
+            "IsCurrentSessionTokenValid": null,
+            "APIKey": null,
+            "SyncedSettings": null
+          },
+          "DateCreated": "2024-07-30T13:03:00Z"
+        },
+        {
+          "ID": 43120,
+          "ChargePointID": 302192,
+          "ItemURL": "https://media.openchargemap.io/images/IT/OCM302192/OCM-302192.orig.2024073013030664.jpg",
+          "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM302192/OCM-302192.thmb.2024073013030664.jpg",
+          "Comment": "",
+          "IsEnabled": true,
+          "IsVideo": false,
+          "IsFeaturedItem": false,
+          "IsExternalResource": false,
+          "MetadataValue": null,
+          "User": {
+            "ID": 11749,
+            "IdentityProvider": null,
+            "Identifier": null,
+            "CurrentSessionToken": null,
+            "Username": "ForumElettrico.it",
+            "Profile": null,
+            "Location": null,
+            "WebsiteURL": null,
+            "ReputationPoints": 19704,
+            "Permissions": null,
+            "PermissionsRequested": null,
+            "DateCreated": null,
+            "DateLastLogin": null,
+            "IsProfilePublic": null,
+            "IsEmergencyChargingProvider": null,
+            "IsPublicChargingProvider": null,
+            "Latitude": null,
+            "Longitude": null,
+            "EmailAddress": null,
+            "EmailHash": null,
+            "ProfileImageURL": "https://www.gravatar.com/avatar/8f482f7e667741b53f05b06210bca268?s=80&d=robohash",
+            "IsCurrentSessionTokenValid": null,
+            "APIKey": null,
+            "SyncedSettings": null
+          },
+          "DateCreated": "2024-07-30T13:03:00Z"
+        }
+      ],
+      "IsRecentlyVerified": true,
+      "DateLastVerified": "2024-07-30T13:03:00Z",
+      "ID": 302192,
+      "UUID": "75825981-8091-4A17-91A7-A87824743BAA",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvidersReference": null,
+      "OperatorID": 80,
+      "OperatorsReference": null,
+      "UsageTypeID": 1,
+      "UsageCost": null,
+      "AddressInfo": {
+        "ID": 302579,
+        "Title": "Enel X Way IKEA",
+        "AddressLine1": "Via Marilyn Monroe",
+        "AddressLine2": null,
+        "Town": "Casalecchio di Reno",
+        "StateOrProvince": "BO",
+        "Postcode": null,
+        "CountryID": 112,
+        "Country": {
+          "ISOCode": "IT",
+          "ContinentCode": "EU",
+          "ID": 112,
+          "Title": "Italy"
+        },
+        "Latitude": 44.488818,
+        "Longitude": 11.251012,
+        "ContactTelephone1": null,
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": null,
         "RelatedURL": "https://www.forumelettrico.it/forum/colonnina-enel-x-way-fast-ikea-casalecchio-di-reno-bo-via-marilyn-monroe-t38486.html",
-        "DateCreated": "2024-07-30T13:02:25.583Z",
-        "User": {
-          "ID": 11749,
-          "IdentityProvider": null,
-          "Identifier": null,
-          "CurrentSessionToken": null,
-          "Username": "ForumElettrico.it",
-          "Profile": null,
-          "Location": null,
-          "WebsiteURL": null,
-          "ReputationPoints": 19704,
-          "Permissions": null,
-          "PermissionsRequested": null,
-          "DateCreated": null,
-          "DateLastLogin": null,
-          "IsProfilePublic": null,
-          "IsEmergencyChargingProvider": null,
-          "IsPublicChargingProvider": null,
-          "Latitude": null,
-          "Longitude": null,
-          "EmailAddress": null,
-          "EmailHash": null,
-          "ProfileImageURL": "https://www.gravatar.com/avatar/8f482f7e667741b53f05b06210bca268?s=80&d=robohash",
-          "IsCurrentSessionTokenValid": null,
-          "APIKey": null,
-          "SyncedSettings": null
-        },
-        "CheckinStatusTypeID": 10,
-        "CheckinStatusType": {
-          "IsPositive": true,
-          "IsAutomatedCheckin": false,
-          "ID": 10,
-          "Title": "Charged Successfully"
-        },
-        "IsActionedByEditor": false
-      }
-    ],
-    "PercentageSimilarity": null,
-    "MediaItems": [
-      {
-        "ID": 43116,
-        "ChargePointID": 302192,
-        "ItemURL": "https://media.openchargemap.io/images/IT/OCM302192/OCM-302192.orig.2024073013023649.jpg",
-        "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM302192/OCM-302192.thmb.2024073013023649.jpg",
-        "Comment": "",
-        "IsEnabled": true,
-        "IsVideo": false,
-        "IsFeaturedItem": false,
-        "IsExternalResource": false,
-        "MetadataValue": null,
-        "User": {
-          "ID": 11749,
-          "IdentityProvider": null,
-          "Identifier": null,
-          "CurrentSessionToken": null,
-          "Username": "ForumElettrico.it",
-          "Profile": null,
-          "Location": null,
-          "WebsiteURL": null,
-          "ReputationPoints": 19704,
-          "Permissions": null,
-          "PermissionsRequested": null,
-          "DateCreated": null,
-          "DateLastLogin": null,
-          "IsProfilePublic": null,
-          "IsEmergencyChargingProvider": null,
-          "IsPublicChargingProvider": null,
-          "Latitude": null,
-          "Longitude": null,
-          "EmailAddress": null,
-          "EmailHash": null,
-          "ProfileImageURL": "https://www.gravatar.com/avatar/8f482f7e667741b53f05b06210bca268?s=80&d=robohash",
-          "IsCurrentSessionTokenValid": null,
-          "APIKey": null,
-          "SyncedSettings": null
-        },
-        "DateCreated": "2024-07-30T13:03:00Z"
+        "Distance": null,
+        "DistanceUnit": 0
       },
-      {
-        "ID": 43117,
-        "ChargePointID": 302192,
-        "ItemURL": "https://media.openchargemap.io/images/IT/OCM302192/OCM-302192.orig.2024073013024529.jpg",
-        "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM302192/OCM-302192.thmb.2024073013024529.jpg",
-        "Comment": "",
-        "IsEnabled": true,
-        "IsVideo": false,
-        "IsFeaturedItem": false,
-        "IsExternalResource": false,
-        "MetadataValue": null,
-        "User": {
-          "ID": 11749,
-          "IdentityProvider": null,
-          "Identifier": null,
-          "CurrentSessionToken": null,
-          "Username": "ForumElettrico.it",
-          "Profile": null,
-          "Location": null,
-          "WebsiteURL": null,
-          "ReputationPoints": 19704,
-          "Permissions": null,
-          "PermissionsRequested": null,
-          "DateCreated": null,
-          "DateLastLogin": null,
-          "IsProfilePublic": null,
-          "IsEmergencyChargingProvider": null,
-          "IsPublicChargingProvider": null,
-          "Latitude": null,
-          "Longitude": null,
-          "EmailAddress": null,
-          "EmailHash": null,
-          "ProfileImageURL": "https://www.gravatar.com/avatar/8f482f7e667741b53f05b06210bca268?s=80&d=robohash",
-          "IsCurrentSessionTokenValid": null,
-          "APIKey": null,
-          "SyncedSettings": null
-        },
-        "DateCreated": "2024-07-30T13:03:00Z"
-      },
-      {
-        "ID": 43118,
-        "ChargePointID": 302192,
-        "ItemURL": "https://media.openchargemap.io/images/IT/OCM302192/OCM-302192.orig.2024073013025221.jpg",
-        "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM302192/OCM-302192.thmb.2024073013025221.jpg",
-        "Comment": "",
-        "IsEnabled": true,
-        "IsVideo": false,
-        "IsFeaturedItem": false,
-        "IsExternalResource": false,
-        "MetadataValue": null,
-        "User": {
-          "ID": 11749,
-          "IdentityProvider": null,
-          "Identifier": null,
-          "CurrentSessionToken": null,
-          "Username": "ForumElettrico.it",
-          "Profile": null,
-          "Location": null,
-          "WebsiteURL": null,
-          "ReputationPoints": 19704,
-          "Permissions": null,
-          "PermissionsRequested": null,
-          "DateCreated": null,
-          "DateLastLogin": null,
-          "IsProfilePublic": null,
-          "IsEmergencyChargingProvider": null,
-          "IsPublicChargingProvider": null,
-          "Latitude": null,
-          "Longitude": null,
-          "EmailAddress": null,
-          "EmailHash": null,
-          "ProfileImageURL": "https://www.gravatar.com/avatar/8f482f7e667741b53f05b06210bca268?s=80&d=robohash",
-          "IsCurrentSessionTokenValid": null,
-          "APIKey": null,
-          "SyncedSettings": null
-        },
-        "DateCreated": "2024-07-30T13:03:00Z"
-      },
-      {
-        "ID": 43119,
-        "ChargePointID": 302192,
-        "ItemURL": "https://media.openchargemap.io/images/IT/OCM302192/OCM-302192.orig.2024073013025862.jpg",
-        "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM302192/OCM-302192.thmb.2024073013025862.jpg",
-        "Comment": "",
-        "IsEnabled": true,
-        "IsVideo": false,
-        "IsFeaturedItem": false,
-        "IsExternalResource": false,
-        "MetadataValue": null,
-        "User": {
-          "ID": 11749,
-          "IdentityProvider": null,
-          "Identifier": null,
-          "CurrentSessionToken": null,
-          "Username": "ForumElettrico.it",
-          "Profile": null,
-          "Location": null,
-          "WebsiteURL": null,
-          "ReputationPoints": 19704,
-          "Permissions": null,
-          "PermissionsRequested": null,
-          "DateCreated": null,
-          "DateLastLogin": null,
-          "IsProfilePublic": null,
-          "IsEmergencyChargingProvider": null,
-          "IsPublicChargingProvider": null,
-          "Latitude": null,
-          "Longitude": null,
-          "EmailAddress": null,
-          "EmailHash": null,
-          "ProfileImageURL": "https://www.gravatar.com/avatar/8f482f7e667741b53f05b06210bca268?s=80&d=robohash",
-          "IsCurrentSessionTokenValid": null,
-          "APIKey": null,
-          "SyncedSettings": null
-        },
-        "DateCreated": "2024-07-30T13:03:00Z"
-      },
-      {
-        "ID": 43120,
-        "ChargePointID": 302192,
-        "ItemURL": "https://media.openchargemap.io/images/IT/OCM302192/OCM-302192.orig.2024073013030664.jpg",
-        "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM302192/OCM-302192.thmb.2024073013030664.jpg",
-        "Comment": "",
-        "IsEnabled": true,
-        "IsVideo": false,
-        "IsFeaturedItem": false,
-        "IsExternalResource": false,
-        "MetadataValue": null,
-        "User": {
-          "ID": 11749,
-          "IdentityProvider": null,
-          "Identifier": null,
-          "CurrentSessionToken": null,
-          "Username": "ForumElettrico.it",
-          "Profile": null,
-          "Location": null,
-          "WebsiteURL": null,
-          "ReputationPoints": 19704,
-          "Permissions": null,
-          "PermissionsRequested": null,
-          "DateCreated": null,
-          "DateLastLogin": null,
-          "IsProfilePublic": null,
-          "IsEmergencyChargingProvider": null,
-          "IsPublicChargingProvider": null,
-          "Latitude": null,
-          "Longitude": null,
-          "EmailAddress": null,
-          "EmailHash": null,
-          "ProfileImageURL": "https://www.gravatar.com/avatar/8f482f7e667741b53f05b06210bca268?s=80&d=robohash",
-          "IsCurrentSessionTokenValid": null,
-          "APIKey": null,
-          "SyncedSettings": null
-        },
-        "DateCreated": "2024-07-30T13:03:00Z"
-      }
-    ],
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2024-07-30T13:03:00Z",
-    "ID": 302192,
-    "UUID": "75825981-8091-4A17-91A7-A87824743BAA",
-    "ParentChargePointID": null,
-    "DataProviderID": 1,
-    "DataProvidersReference": null,
-    "OperatorID": 80,
-    "OperatorsReference": null,
-    "UsageTypeID": 1,
-    "UsageCost": null,
-    "AddressInfo": {
-      "ID": 302579,
-      "Title": "Enel X Way IKEA",
-      "AddressLine1": "Via Marilyn Monroe",
-      "AddressLine2": null,
-      "Town": "Casalecchio di Reno",
-      "StateOrProvince": "BO",
-      "Postcode": null,
-      "CountryID": 112,
-      "Country": {
-        "ISOCode": "IT",
-        "ContinentCode": "EU",
-        "ID": 112,
-        "Title": "Italy"
-      },
-      "Latitude": 44.488818,
-      "Longitude": 11.251012,
-      "ContactTelephone1": null,
-      "ContactTelephone2": null,
-      "ContactEmail": null,
-      "AccessComments": null,
-      "RelatedURL": "https://www.forumelettrico.it/forum/colonnina-enel-x-way-fast-ikea-casalecchio-di-reno-bo-via-marilyn-monroe-t38486.html",
-      "Distance": null,
-      "DistanceUnit": 0
+      "Connections": [
+        {
+          "ID": 566292,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-3 Configuration FF",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2)"
+          },
+          "Reference": null,
+          "StatusTypeID": null,
+          "StatusType": null,
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 60,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 2,
+          "Comments": null
+        }
+      ],
+      "NumberOfPoints": 1,
+      "GeneralComments": null,
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "DateLastStatusUpdate": "2024-07-30T13:03:00Z",
+      "MetadataValues": null,
+      "DataQualityLevel": 1,
+      "DateCreated": "2024-07-30T13:00:00Z",
+      "SubmissionStatusTypeID": 200
     },
-    "Connections": [
-      {
-        "ID": 566292,
-        "ConnectionTypeID": 33,
-        "ConnectionType": {
-          "FormalName": "IEC 62196-3 Configuration FF",
-          "IsDiscontinued": false,
-          "IsObsolete": false,
-          "ID": 33,
-          "Title": "CCS (Type 2)"
+    {
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
         },
-        "Reference": null,
-        "StatusTypeID": null,
-        "StatusType": null,
-        "LevelID": 3,
-        "Level": {
-          "Comments": "40KW and Higher",
-          "IsFastChargeCapable": true,
-          "ID": 3,
-          "Title": "Level 3:  High (Over 40kW)"
-        },
-        "Amps": null,
-        "Voltage": null,
-        "PowerKW": 60,
-        "CurrentTypeID": 30,
-        "CurrentType": {
-          "Description": "Direct Current",
-          "ID": 30,
-          "Title": "DC"
-        },
-        "Quantity": 2,
-        "Comments": null
-      }
-    ],
-    "NumberOfPoints": 1,
-    "GeneralComments": null,
-    "DatePlanned": null,
-    "DateLastConfirmed": null,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-07-30T13:03:00Z",
-    "MetadataValues": null,
-    "DataQualityLevel": 1,
-    "DateCreated": "2024-07-30T13:00:00Z",
-    "SubmissionStatusTypeID": 200
-  },
-  {
-    "DataProvider": {
-      "WebsiteURL": "http://openchargemap.org",
-      "Comments": null,
-      "DataProviderStatusType": {
-        "IsProviderEnabled": true,
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "DateLastImported": null,
         "ID": 1,
-        "Title": "Manual Data Entry"
+        "Title": "Open Charge Map Contributors"
       },
-      "IsRestrictedEdit": false,
-      "IsOpenDataLicensed": true,
-      "IsApprovedImport": true,
-      "License": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
-      "DateLastImported": null,
-      "ID": 1,
-      "Title": "Open Charge Map Contributors"
+      "OperatorInfo": {
+        "WebsiteURL": "https://ospreycharging.co.uk/ev-drivers/",
+        "Comments": "GB*OSP,formerly known as Engenie",
+        "PhonePrimaryContact": "0330 010 1757",
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": false,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": "support@ospreycharging.co.uk",
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": false,
+        "ID": 203,
+        "Title": "Osprey Charging"
+      },
+      "UsageType": {
+        "IsPayAtLocation": true,
+        "IsMembershipRequired": false,
+        "IsAccessKeyRequired": false,
+        "ID": 5,
+        "Title": "Public - Pay At Location"
+      },
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
+      },
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "MediaItems": null,
+      "IsRecentlyVerified": true,
+      "DateLastVerified": "2024-07-30T09:45:00Z",
+      "ID": 302189,
+      "UUID": "3F5768A5-7540-4AAC-82F8-FFD3E6A6D298",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvidersReference": null,
+      "OperatorID": 203,
+      "OperatorsReference": "GB-OSP-c4ad747c99554e7dac262c290cb48fbf",
+      "UsageTypeID": 5,
+      "UsageCost": "£0.79/kWh",
+      "AddressInfo": {
+        "ID": 302576,
+        "Title": "Chesterfield Football Club Hub",
+        "AddressLine1": "Sheffield Road",
+        "AddressLine2": null,
+        "Town": "Chesterfield",
+        "StateOrProvince": null,
+        "Postcode": "S41 8NZ",
+        "CountryID": 1,
+        "Country": {
+          "ISOCode": "GB",
+          "ContinentCode": "EU",
+          "ID": 1,
+          "Title": "United Kingdom"
+        },
+        "Latitude": 53.253227,
+        "Longitude": -1.427212,
+        "ContactTelephone1": null,
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": null,
+        "RelatedURL": null,
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "Connections": [
+        {
+          "ID": 566267,
+          "ConnectionTypeID": 2,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-3 Configuration AA",
+            "IsDiscontinued": null,
+            "IsObsolete": null,
+            "ID": 2,
+            "Title": "CHAdeMO"
+          },
+          "Reference": "GB*OSP*EOSP30537*1",
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 50,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": "30537-1"
+        },
+        {
+          "ID": 566268,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-3 Configuration FF",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2)"
+          },
+          "Reference": "GB*OSP*EOSP30537*2",
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 288,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": "30537-2"
+        },
+        {
+          "ID": 566269,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-3 Configuration FF",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2)"
+          },
+          "Reference": "GB*OSP*EOSP30537*4",
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 288,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": "30537-4"
+        },
+        {
+          "ID": 566270,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-3 Configuration FF",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2)"
+          },
+          "Reference": "GB*OSP*EOSP30537*6",
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 288,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": "30537-6"
+        },
+        {
+          "ID": 566271,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-3 Configuration FF",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2)"
+          },
+          "Reference": "GB*OSP*EOSP30537*8",
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 288,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": "30537-8"
+        },
+        {
+          "ID": 566272,
+          "ConnectionTypeID": 2,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-3 Configuration AA",
+            "IsDiscontinued": null,
+            "IsObsolete": null,
+            "ID": 2,
+            "Title": "CHAdeMO"
+          },
+          "Reference": "GB*OSP*EOSP30541*1",
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 100,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": "30541-1"
+        },
+        {
+          "ID": 566273,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-3 Configuration FF",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2)"
+          },
+          "Reference": "GB*OSP*EOSP30541*2",
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 288,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": "30541-2"
+        },
+        {
+          "ID": 566274,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-3 Configuration FF",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2)"
+          },
+          "Reference": "GB*OSP*EOSP30541*4",
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 288,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": "30541-4"
+        },
+        {
+          "ID": 566275,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-3 Configuration FF",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2)"
+          },
+          "Reference": "GB*OSP*EOSP30541*6",
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 288,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": "30541-6"
+        },
+        {
+          "ID": 566276,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-3 Configuration FF",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2)"
+          },
+          "Reference": "GB*OSP*EOSP30541*8",
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 288,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": "30541-8"
+        },
+        {
+          "ID": 566277,
+          "ConnectionTypeID": 2,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-3 Configuration AA",
+            "IsDiscontinued": null,
+            "IsObsolete": null,
+            "ID": 2,
+            "Title": "CHAdeMO"
+          },
+          "Reference": "GB*OSP*EOSP30545*1",
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 100,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": "30545-1"
+        },
+        {
+          "ID": 566278,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-3 Configuration FF",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2)"
+          },
+          "Reference": "GB*OSP*EOSP30545*2",
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 288,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": "30545-2"
+        },
+        {
+          "ID": 566279,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-3 Configuration FF",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2)"
+          },
+          "Reference": "GB*OSP*EOSP30545*4",
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 288,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": "30545-4"
+        },
+        {
+          "ID": 566280,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-3 Configuration FF",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2)"
+          },
+          "Reference": "GB*OSP*EOSP30545*6",
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 288,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": "30545-6"
+        },
+        {
+          "ID": 566281,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-3 Configuration FF",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2)"
+          },
+          "Reference": "GB*OSP*EOSP30545*8",
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 288,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": "30545-8"
+        }
+      ],
+      "NumberOfPoints": null,
+      "GeneralComments": null,
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "DateLastStatusUpdate": "2024-07-30T09:45:00Z",
+      "MetadataValues": null,
+      "DataQualityLevel": 1,
+      "DateCreated": "2024-07-30T09:45:00Z",
+      "SubmissionStatusTypeID": 200
     },
-    "OperatorInfo": {
-      "WebsiteURL": "https://ospreycharging.co.uk/ev-drivers/",
-      "Comments": "GB*OSP,formerly known as Engenie",
-      "PhonePrimaryContact": "0330 010 1757",
-      "PhoneSecondaryContact": null,
-      "IsPrivateIndividual": false,
-      "AddressInfo": null,
-      "BookingURL": null,
-      "ContactEmail": "support@ospreycharging.co.uk",
-      "FaultReportEmail": null,
-      "IsRestrictedEdit": false,
-      "ID": 203,
-      "Title": "Osprey Charging"
-    },
-    "UsageType": {
-      "IsPayAtLocation": true,
-      "IsMembershipRequired": false,
-      "IsAccessKeyRequired": false,
-      "ID": 5,
-      "Title": "Public - Pay At Location"
-    },
-    "StatusType": {
-      "IsOperational": true,
-      "IsUserSelectable": true,
-      "ID": 50,
-      "Title": "Operational"
-    },
-    "SubmissionStatus": {
-      "IsLive": true,
-      "ID": 200,
-      "Title": "Submission Published"
-    },
-    "UserComments": null,
-    "PercentageSimilarity": null,
-    "MediaItems": null,
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2024-07-30T09:45:00Z",
-    "ID": 302189,
-    "UUID": "3F5768A5-7540-4AAC-82F8-FFD3E6A6D298",
-    "ParentChargePointID": null,
-    "DataProviderID": 1,
-    "DataProvidersReference": null,
-    "OperatorID": 203,
-    "OperatorsReference": "GB-OSP-c4ad747c99554e7dac262c290cb48fbf",
-    "UsageTypeID": 5,
-    "UsageCost": "£0.79/kWh",
-    "AddressInfo": {
-      "ID": 302576,
-      "Title": "Chesterfield Football Club Hub",
-      "AddressLine1": "Sheffield Road",
-      "AddressLine2": null,
-      "Town": "Chesterfield",
-      "StateOrProvince": null,
-      "Postcode": "S41 8NZ",
-      "CountryID": 1,
-      "Country": {
-        "ISOCode": "GB",
-        "ContinentCode": "EU",
+    {
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
+        },
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "DateLastImported": null,
         "ID": 1,
-        "Title": "United Kingdom"
+        "Title": "Open Charge Map Contributors"
       },
-      "Latitude": 53.253227,
-      "Longitude": -1.427212,
-      "ContactTelephone1": null,
-      "ContactTelephone2": null,
-      "ContactEmail": null,
-      "AccessComments": null,
-      "RelatedURL": null,
-      "Distance": null,
-      "DistanceUnit": 0
-    },
-    "Connections": [
-      {
-        "ID": 566267,
-        "ConnectionTypeID": 2,
-        "ConnectionType": {
-          "FormalName": "IEC 62196-3 Configuration AA",
-          "IsDiscontinued": null,
-          "IsObsolete": null,
-          "ID": 2,
-          "Title": "CHAdeMO"
-        },
-        "Reference": "GB*OSP*EOSP30537*1",
-        "StatusTypeID": 50,
-        "StatusType": {
-          "IsOperational": true,
-          "IsUserSelectable": true,
-          "ID": 50,
-          "Title": "Operational"
-        },
-        "LevelID": 3,
-        "Level": {
-          "Comments": "40KW and Higher",
-          "IsFastChargeCapable": true,
-          "ID": 3,
-          "Title": "Level 3:  High (Over 40kW)"
-        },
-        "Amps": null,
-        "Voltage": null,
-        "PowerKW": 50,
-        "CurrentTypeID": 30,
-        "CurrentType": {
-          "Description": "Direct Current",
-          "ID": 30,
-          "Title": "DC"
-        },
-        "Quantity": 1,
-        "Comments": "30537-1"
+      "OperatorInfo": {
+        "WebsiteURL": "https://kpb.power2ride.cz/",
+        "Comments": null,
+        "PhonePrimaryContact": null,
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": false,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": "info@power2ride.cz",
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": false,
+        "ID": 3804,
+        "Title": "KRB Intra (cz)"
       },
-      {
-        "ID": 566268,
-        "ConnectionTypeID": 33,
-        "ConnectionType": {
-          "FormalName": "IEC 62196-3 Configuration FF",
-          "IsDiscontinued": false,
-          "IsObsolete": false,
-          "ID": 33,
-          "Title": "CCS (Type 2)"
-        },
-        "Reference": "GB*OSP*EOSP30537*2",
-        "StatusTypeID": 50,
-        "StatusType": {
-          "IsOperational": true,
-          "IsUserSelectable": true,
-          "ID": 50,
-          "Title": "Operational"
-        },
-        "LevelID": 3,
-        "Level": {
-          "Comments": "40KW and Higher",
-          "IsFastChargeCapable": true,
-          "ID": 3,
-          "Title": "Level 3:  High (Over 40kW)"
-        },
-        "Amps": null,
-        "Voltage": null,
-        "PowerKW": 288,
-        "CurrentTypeID": 30,
-        "CurrentType": {
-          "Description": "Direct Current",
-          "ID": 30,
-          "Title": "DC"
-        },
-        "Quantity": 1,
-        "Comments": "30537-2"
-      },
-      {
-        "ID": 566269,
-        "ConnectionTypeID": 33,
-        "ConnectionType": {
-          "FormalName": "IEC 62196-3 Configuration FF",
-          "IsDiscontinued": false,
-          "IsObsolete": false,
-          "ID": 33,
-          "Title": "CCS (Type 2)"
-        },
-        "Reference": "GB*OSP*EOSP30537*4",
-        "StatusTypeID": 50,
-        "StatusType": {
-          "IsOperational": true,
-          "IsUserSelectable": true,
-          "ID": 50,
-          "Title": "Operational"
-        },
-        "LevelID": 3,
-        "Level": {
-          "Comments": "40KW and Higher",
-          "IsFastChargeCapable": true,
-          "ID": 3,
-          "Title": "Level 3:  High (Over 40kW)"
-        },
-        "Amps": null,
-        "Voltage": null,
-        "PowerKW": 288,
-        "CurrentTypeID": 30,
-        "CurrentType": {
-          "Description": "Direct Current",
-          "ID": 30,
-          "Title": "DC"
-        },
-        "Quantity": 1,
-        "Comments": "30537-4"
-      },
-      {
-        "ID": 566270,
-        "ConnectionTypeID": 33,
-        "ConnectionType": {
-          "FormalName": "IEC 62196-3 Configuration FF",
-          "IsDiscontinued": false,
-          "IsObsolete": false,
-          "ID": 33,
-          "Title": "CCS (Type 2)"
-        },
-        "Reference": "GB*OSP*EOSP30537*6",
-        "StatusTypeID": 50,
-        "StatusType": {
-          "IsOperational": true,
-          "IsUserSelectable": true,
-          "ID": 50,
-          "Title": "Operational"
-        },
-        "LevelID": 3,
-        "Level": {
-          "Comments": "40KW and Higher",
-          "IsFastChargeCapable": true,
-          "ID": 3,
-          "Title": "Level 3:  High (Over 40kW)"
-        },
-        "Amps": null,
-        "Voltage": null,
-        "PowerKW": 288,
-        "CurrentTypeID": 30,
-        "CurrentType": {
-          "Description": "Direct Current",
-          "ID": 30,
-          "Title": "DC"
-        },
-        "Quantity": 1,
-        "Comments": "30537-6"
-      },
-      {
-        "ID": 566271,
-        "ConnectionTypeID": 33,
-        "ConnectionType": {
-          "FormalName": "IEC 62196-3 Configuration FF",
-          "IsDiscontinued": false,
-          "IsObsolete": false,
-          "ID": 33,
-          "Title": "CCS (Type 2)"
-        },
-        "Reference": "GB*OSP*EOSP30537*8",
-        "StatusTypeID": 50,
-        "StatusType": {
-          "IsOperational": true,
-          "IsUserSelectable": true,
-          "ID": 50,
-          "Title": "Operational"
-        },
-        "LevelID": 3,
-        "Level": {
-          "Comments": "40KW and Higher",
-          "IsFastChargeCapable": true,
-          "ID": 3,
-          "Title": "Level 3:  High (Over 40kW)"
-        },
-        "Amps": null,
-        "Voltage": null,
-        "PowerKW": 288,
-        "CurrentTypeID": 30,
-        "CurrentType": {
-          "Description": "Direct Current",
-          "ID": 30,
-          "Title": "DC"
-        },
-        "Quantity": 1,
-        "Comments": "30537-8"
-      },
-      {
-        "ID": 566272,
-        "ConnectionTypeID": 2,
-        "ConnectionType": {
-          "FormalName": "IEC 62196-3 Configuration AA",
-          "IsDiscontinued": null,
-          "IsObsolete": null,
-          "ID": 2,
-          "Title": "CHAdeMO"
-        },
-        "Reference": "GB*OSP*EOSP30541*1",
-        "StatusTypeID": 50,
-        "StatusType": {
-          "IsOperational": true,
-          "IsUserSelectable": true,
-          "ID": 50,
-          "Title": "Operational"
-        },
-        "LevelID": 3,
-        "Level": {
-          "Comments": "40KW and Higher",
-          "IsFastChargeCapable": true,
-          "ID": 3,
-          "Title": "Level 3:  High (Over 40kW)"
-        },
-        "Amps": null,
-        "Voltage": null,
-        "PowerKW": 100,
-        "CurrentTypeID": 30,
-        "CurrentType": {
-          "Description": "Direct Current",
-          "ID": 30,
-          "Title": "DC"
-        },
-        "Quantity": 1,
-        "Comments": "30541-1"
-      },
-      {
-        "ID": 566273,
-        "ConnectionTypeID": 33,
-        "ConnectionType": {
-          "FormalName": "IEC 62196-3 Configuration FF",
-          "IsDiscontinued": false,
-          "IsObsolete": false,
-          "ID": 33,
-          "Title": "CCS (Type 2)"
-        },
-        "Reference": "GB*OSP*EOSP30541*2",
-        "StatusTypeID": 50,
-        "StatusType": {
-          "IsOperational": true,
-          "IsUserSelectable": true,
-          "ID": 50,
-          "Title": "Operational"
-        },
-        "LevelID": 3,
-        "Level": {
-          "Comments": "40KW and Higher",
-          "IsFastChargeCapable": true,
-          "ID": 3,
-          "Title": "Level 3:  High (Over 40kW)"
-        },
-        "Amps": null,
-        "Voltage": null,
-        "PowerKW": 288,
-        "CurrentTypeID": 30,
-        "CurrentType": {
-          "Description": "Direct Current",
-          "ID": 30,
-          "Title": "DC"
-        },
-        "Quantity": 1,
-        "Comments": "30541-2"
-      },
-      {
-        "ID": 566274,
-        "ConnectionTypeID": 33,
-        "ConnectionType": {
-          "FormalName": "IEC 62196-3 Configuration FF",
-          "IsDiscontinued": false,
-          "IsObsolete": false,
-          "ID": 33,
-          "Title": "CCS (Type 2)"
-        },
-        "Reference": "GB*OSP*EOSP30541*4",
-        "StatusTypeID": 50,
-        "StatusType": {
-          "IsOperational": true,
-          "IsUserSelectable": true,
-          "ID": 50,
-          "Title": "Operational"
-        },
-        "LevelID": 3,
-        "Level": {
-          "Comments": "40KW and Higher",
-          "IsFastChargeCapable": true,
-          "ID": 3,
-          "Title": "Level 3:  High (Over 40kW)"
-        },
-        "Amps": null,
-        "Voltage": null,
-        "PowerKW": 288,
-        "CurrentTypeID": 30,
-        "CurrentType": {
-          "Description": "Direct Current",
-          "ID": 30,
-          "Title": "DC"
-        },
-        "Quantity": 1,
-        "Comments": "30541-4"
-      },
-      {
-        "ID": 566275,
-        "ConnectionTypeID": 33,
-        "ConnectionType": {
-          "FormalName": "IEC 62196-3 Configuration FF",
-          "IsDiscontinued": false,
-          "IsObsolete": false,
-          "ID": 33,
-          "Title": "CCS (Type 2)"
-        },
-        "Reference": "GB*OSP*EOSP30541*6",
-        "StatusTypeID": 50,
-        "StatusType": {
-          "IsOperational": true,
-          "IsUserSelectable": true,
-          "ID": 50,
-          "Title": "Operational"
-        },
-        "LevelID": 3,
-        "Level": {
-          "Comments": "40KW and Higher",
-          "IsFastChargeCapable": true,
-          "ID": 3,
-          "Title": "Level 3:  High (Over 40kW)"
-        },
-        "Amps": null,
-        "Voltage": null,
-        "PowerKW": 288,
-        "CurrentTypeID": 30,
-        "CurrentType": {
-          "Description": "Direct Current",
-          "ID": 30,
-          "Title": "DC"
-        },
-        "Quantity": 1,
-        "Comments": "30541-6"
-      },
-      {
-        "ID": 566276,
-        "ConnectionTypeID": 33,
-        "ConnectionType": {
-          "FormalName": "IEC 62196-3 Configuration FF",
-          "IsDiscontinued": false,
-          "IsObsolete": false,
-          "ID": 33,
-          "Title": "CCS (Type 2)"
-        },
-        "Reference": "GB*OSP*EOSP30541*8",
-        "StatusTypeID": 50,
-        "StatusType": {
-          "IsOperational": true,
-          "IsUserSelectable": true,
-          "ID": 50,
-          "Title": "Operational"
-        },
-        "LevelID": 3,
-        "Level": {
-          "Comments": "40KW and Higher",
-          "IsFastChargeCapable": true,
-          "ID": 3,
-          "Title": "Level 3:  High (Over 40kW)"
-        },
-        "Amps": null,
-        "Voltage": null,
-        "PowerKW": 288,
-        "CurrentTypeID": 30,
-        "CurrentType": {
-          "Description": "Direct Current",
-          "ID": 30,
-          "Title": "DC"
-        },
-        "Quantity": 1,
-        "Comments": "30541-8"
-      },
-      {
-        "ID": 566277,
-        "ConnectionTypeID": 2,
-        "ConnectionType": {
-          "FormalName": "IEC 62196-3 Configuration AA",
-          "IsDiscontinued": null,
-          "IsObsolete": null,
-          "ID": 2,
-          "Title": "CHAdeMO"
-        },
-        "Reference": "GB*OSP*EOSP30545*1",
-        "StatusTypeID": 50,
-        "StatusType": {
-          "IsOperational": true,
-          "IsUserSelectable": true,
-          "ID": 50,
-          "Title": "Operational"
-        },
-        "LevelID": 3,
-        "Level": {
-          "Comments": "40KW and Higher",
-          "IsFastChargeCapable": true,
-          "ID": 3,
-          "Title": "Level 3:  High (Over 40kW)"
-        },
-        "Amps": null,
-        "Voltage": null,
-        "PowerKW": 100,
-        "CurrentTypeID": 30,
-        "CurrentType": {
-          "Description": "Direct Current",
-          "ID": 30,
-          "Title": "DC"
-        },
-        "Quantity": 1,
-        "Comments": "30545-1"
-      },
-      {
-        "ID": 566278,
-        "ConnectionTypeID": 33,
-        "ConnectionType": {
-          "FormalName": "IEC 62196-3 Configuration FF",
-          "IsDiscontinued": false,
-          "IsObsolete": false,
-          "ID": 33,
-          "Title": "CCS (Type 2)"
-        },
-        "Reference": "GB*OSP*EOSP30545*2",
-        "StatusTypeID": 50,
-        "StatusType": {
-          "IsOperational": true,
-          "IsUserSelectable": true,
-          "ID": 50,
-          "Title": "Operational"
-        },
-        "LevelID": 3,
-        "Level": {
-          "Comments": "40KW and Higher",
-          "IsFastChargeCapable": true,
-          "ID": 3,
-          "Title": "Level 3:  High (Over 40kW)"
-        },
-        "Amps": null,
-        "Voltage": null,
-        "PowerKW": 288,
-        "CurrentTypeID": 30,
-        "CurrentType": {
-          "Description": "Direct Current",
-          "ID": 30,
-          "Title": "DC"
-        },
-        "Quantity": 1,
-        "Comments": "30545-2"
-      },
-      {
-        "ID": 566279,
-        "ConnectionTypeID": 33,
-        "ConnectionType": {
-          "FormalName": "IEC 62196-3 Configuration FF",
-          "IsDiscontinued": false,
-          "IsObsolete": false,
-          "ID": 33,
-          "Title": "CCS (Type 2)"
-        },
-        "Reference": "GB*OSP*EOSP30545*4",
-        "StatusTypeID": 50,
-        "StatusType": {
-          "IsOperational": true,
-          "IsUserSelectable": true,
-          "ID": 50,
-          "Title": "Operational"
-        },
-        "LevelID": 3,
-        "Level": {
-          "Comments": "40KW and Higher",
-          "IsFastChargeCapable": true,
-          "ID": 3,
-          "Title": "Level 3:  High (Over 40kW)"
-        },
-        "Amps": null,
-        "Voltage": null,
-        "PowerKW": 288,
-        "CurrentTypeID": 30,
-        "CurrentType": {
-          "Description": "Direct Current",
-          "ID": 30,
-          "Title": "DC"
-        },
-        "Quantity": 1,
-        "Comments": "30545-4"
-      },
-      {
-        "ID": 566280,
-        "ConnectionTypeID": 33,
-        "ConnectionType": {
-          "FormalName": "IEC 62196-3 Configuration FF",
-          "IsDiscontinued": false,
-          "IsObsolete": false,
-          "ID": 33,
-          "Title": "CCS (Type 2)"
-        },
-        "Reference": "GB*OSP*EOSP30545*6",
-        "StatusTypeID": 50,
-        "StatusType": {
-          "IsOperational": true,
-          "IsUserSelectable": true,
-          "ID": 50,
-          "Title": "Operational"
-        },
-        "LevelID": 3,
-        "Level": {
-          "Comments": "40KW and Higher",
-          "IsFastChargeCapable": true,
-          "ID": 3,
-          "Title": "Level 3:  High (Over 40kW)"
-        },
-        "Amps": null,
-        "Voltage": null,
-        "PowerKW": 288,
-        "CurrentTypeID": 30,
-        "CurrentType": {
-          "Description": "Direct Current",
-          "ID": 30,
-          "Title": "DC"
-        },
-        "Quantity": 1,
-        "Comments": "30545-6"
-      },
-      {
-        "ID": 566281,
-        "ConnectionTypeID": 33,
-        "ConnectionType": {
-          "FormalName": "IEC 62196-3 Configuration FF",
-          "IsDiscontinued": false,
-          "IsObsolete": false,
-          "ID": 33,
-          "Title": "CCS (Type 2)"
-        },
-        "Reference": "GB*OSP*EOSP30545*8",
-        "StatusTypeID": 50,
-        "StatusType": {
-          "IsOperational": true,
-          "IsUserSelectable": true,
-          "ID": 50,
-          "Title": "Operational"
-        },
-        "LevelID": 3,
-        "Level": {
-          "Comments": "40KW and Higher",
-          "IsFastChargeCapable": true,
-          "ID": 3,
-          "Title": "Level 3:  High (Over 40kW)"
-        },
-        "Amps": null,
-        "Voltage": null,
-        "PowerKW": 288,
-        "CurrentTypeID": 30,
-        "CurrentType": {
-          "Description": "Direct Current",
-          "ID": 30,
-          "Title": "DC"
-        },
-        "Quantity": 1,
-        "Comments": "30545-8"
-      }
-    ],
-    "NumberOfPoints": null,
-    "GeneralComments": null,
-    "DatePlanned": null,
-    "DateLastConfirmed": null,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-07-30T09:45:00Z",
-    "MetadataValues": null,
-    "DataQualityLevel": 1,
-    "DateCreated": "2024-07-30T09:45:00Z",
-    "SubmissionStatusTypeID": 200
-  },
-  {
-    "DataProvider": {
-      "WebsiteURL": "http://openchargemap.org",
-      "Comments": null,
-      "DataProviderStatusType": {
-        "IsProviderEnabled": true,
+      "UsageType": {
+        "IsPayAtLocation": null,
+        "IsMembershipRequired": null,
+        "IsAccessKeyRequired": null,
         "ID": 1,
-        "Title": "Manual Data Entry"
+        "Title": "Public"
       },
-      "IsRestrictedEdit": false,
-      "IsOpenDataLicensed": true,
-      "IsApprovedImport": true,
-      "License": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
-      "DateLastImported": null,
-      "ID": 1,
-      "Title": "Open Charge Map Contributors"
-    },
-    "OperatorInfo": {
-      "WebsiteURL": "https://kpb.power2ride.cz/",
-      "Comments": null,
-      "PhonePrimaryContact": null,
-      "PhoneSecondaryContact": null,
-      "IsPrivateIndividual": false,
-      "AddressInfo": null,
-      "BookingURL": null,
-      "ContactEmail": "info@power2ride.cz",
-      "FaultReportEmail": null,
-      "IsRestrictedEdit": false,
-      "ID": 3804,
-      "Title": "KRB Intra (cz)"
-    },
-    "UsageType": {
-      "IsPayAtLocation": null,
-      "IsMembershipRequired": null,
-      "IsAccessKeyRequired": null,
-      "ID": 1,
-      "Title": "Public"
-    },
-    "StatusType": {
-      "IsOperational": true,
-      "IsUserSelectable": true,
-      "ID": 50,
-      "Title": "Operational"
-    },
-    "SubmissionStatus": {
-      "IsLive": true,
-      "ID": 200,
-      "Title": "Submission Published"
-    },
-    "UserComments": null,
-    "PercentageSimilarity": null,
-    "MediaItems": null,
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2024-07-30T09:38:00Z",
-    "ID": 302188,
-    "UUID": "7C38041E-F33C-4579-BE4C-8D64C0FF3E98",
-    "ParentChargePointID": null,
-    "DataProviderID": 1,
-    "DataProvidersReference": null,
-    "OperatorID": 3804,
-    "OperatorsReference": null,
-    "UsageTypeID": 1,
-    "UsageCost": "100,00 Kč/kWh",
-    "AddressInfo": {
-      "ID": 302575,
-      "Title": "SLIM PVNS - Brno - Líšeň",
-      "AddressLine1": "Masarova",
-      "AddressLine2": "Líšeň",
-      "Town": "Brno",
-      "StateOrProvince": "Jihovýchod",
-      "Postcode": "628 00",
-      "CountryID": 64,
-      "Country": {
-        "ISOCode": "CZ",
-        "ContinentCode": "EU",
-        "ID": 64,
-        "Title": "Czech Republic"
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
       },
-      "Latitude": 49.20530652768596,
-      "Longitude": 16.673612081051004,
-      "ContactTelephone1": null,
-      "ContactTelephone2": null,
-      "ContactEmail": null,
-      "AccessComments": null,
-      "RelatedURL": null,
-      "Distance": null,
-      "DistanceUnit": 0
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "MediaItems": null,
+      "IsRecentlyVerified": true,
+      "DateLastVerified": "2024-07-30T09:38:00Z",
+      "ID": 302188,
+      "UUID": "7C38041E-F33C-4579-BE4C-8D64C0FF3E98",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvidersReference": null,
+      "OperatorID": 3804,
+      "OperatorsReference": null,
+      "UsageTypeID": 1,
+      "UsageCost": "100,00 Kč/kWh",
+      "AddressInfo": {
+        "ID": 302575,
+        "Title": "SLIM PVNS - Brno - Líšeň",
+        "AddressLine1": "Masarova",
+        "AddressLine2": "Líšeň",
+        "Town": "Brno",
+        "StateOrProvince": "Jihovýchod",
+        "Postcode": "628 00",
+        "CountryID": 64,
+        "Country": {
+          "ISOCode": "CZ",
+          "ContinentCode": "EU",
+          "ID": 64,
+          "Title": "Czech Republic"
+        },
+        "Latitude": 49.20530652768596,
+        "Longitude": 16.673612081051004,
+        "ContactTelephone1": null,
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": null,
+        "RelatedURL": null,
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "Connections": [
+        {
+          "ID": 566235,
+          "ConnectionTypeID": 25,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-2 Type 2",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 25,
+            "Title": "Type 2 (Socket Only)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": false,
+            "ID": 2,
+            "Title": "Level 2 : Medium (Over 2kW)"
+          },
+          "Amps": 32,
+          "Voltage": 400,
+          "PowerKW": 22,
+          "CurrentTypeID": 20,
+          "CurrentType": {
+            "Description": "Alternating Current - Three Phase",
+            "ID": 20,
+            "Title": "AC (Three-Phase)"
+          },
+          "Quantity": 2,
+          "Comments": null
+        }
+      ],
+      "NumberOfPoints": 2,
+      "GeneralComments": null,
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "DateLastStatusUpdate": "2024-07-30T09:38:00Z",
+      "MetadataValues": null,
+      "DataQualityLevel": 1,
+      "DateCreated": "2024-07-30T09:37:00Z",
+      "SubmissionStatusTypeID": 200
     },
-    "Connections": [
-      {
-        "ID": 566235,
-        "ConnectionTypeID": 25,
-        "ConnectionType": {
-          "FormalName": "IEC 62196-2 Type 2",
-          "IsDiscontinued": false,
-          "IsObsolete": false,
-          "ID": 25,
-          "Title": "Type 2 (Socket Only)"
+    {
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
         },
-        "Reference": null,
-        "StatusTypeID": 50,
-        "StatusType": {
-          "IsOperational": true,
-          "IsUserSelectable": true,
-          "ID": 50,
-          "Title": "Operational"
-        },
-        "LevelID": 2,
-        "Level": {
-          "Comments": "Over 2 kW, usually non-domestic socket type",
-          "IsFastChargeCapable": false,
-          "ID": 2,
-          "Title": "Level 2 : Medium (Over 2kW)"
-        },
-        "Amps": 32,
-        "Voltage": 400,
-        "PowerKW": 22,
-        "CurrentTypeID": 20,
-        "CurrentType": {
-          "Description": "Alternating Current - Three Phase",
-          "ID": 20,
-          "Title": "AC (Three-Phase)"
-        },
-        "Quantity": 2,
-        "Comments": null
-      }
-    ],
-    "NumberOfPoints": 2,
-    "GeneralComments": null,
-    "DatePlanned": null,
-    "DateLastConfirmed": null,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-07-30T09:38:00Z",
-    "MetadataValues": null,
-    "DataQualityLevel": 1,
-    "DateCreated": "2024-07-30T09:37:00Z",
-    "SubmissionStatusTypeID": 200
-  },
-  {
-    "DataProvider": {
-      "WebsiteURL": "http://openchargemap.org",
-      "Comments": null,
-      "DataProviderStatusType": {
-        "IsProviderEnabled": true,
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "DateLastImported": null,
         "ID": 1,
-        "Title": "Manual Data Entry"
+        "Title": "Open Charge Map Contributors"
       },
-      "IsRestrictedEdit": false,
-      "IsOpenDataLicensed": true,
-      "IsApprovedImport": true,
-      "License": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
-      "DateLastImported": null,
-      "ID": 1,
-      "Title": "Open Charge Map Contributors"
-    },
-    "OperatorInfo": {
-      "WebsiteURL": "https://kpb.power2ride.cz/",
-      "Comments": null,
-      "PhonePrimaryContact": null,
-      "PhoneSecondaryContact": null,
-      "IsPrivateIndividual": false,
-      "AddressInfo": null,
-      "BookingURL": null,
-      "ContactEmail": "info@power2ride.cz",
-      "FaultReportEmail": null,
-      "IsRestrictedEdit": false,
-      "ID": 3804,
-      "Title": "KRB Intra (cz)"
-    },
-    "UsageType": {
-      "IsPayAtLocation": null,
-      "IsMembershipRequired": null,
-      "IsAccessKeyRequired": null,
-      "ID": 1,
-      "Title": "Public"
-    },
-    "StatusType": {
-      "IsOperational": true,
-      "IsUserSelectable": true,
-      "ID": 50,
-      "Title": "Operational"
-    },
-    "SubmissionStatus": {
-      "IsLive": true,
-      "ID": 200,
-      "Title": "Submission Published"
-    },
-    "UserComments": null,
-    "PercentageSimilarity": null,
-    "MediaItems": null,
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2024-07-30T09:27:00Z",
-    "ID": 302187,
-    "UUID": "7F17D4B1-09B6-4ED7-BD1F-28A09B754087",
-    "ParentChargePointID": null,
-    "DataProviderID": 1,
-    "DataProvidersReference": null,
-    "OperatorID": 3804,
-    "OperatorsReference": null,
-    "UsageTypeID": 1,
-    "UsageCost": "4,99 Kč/kWh",
-    "AddressInfo": {
-      "ID": 302574,
-      "Title": "Slavkovská",
-      "AddressLine1": "Slavkovská",
-      "AddressLine2": "Bučovice",
-      "Town": "Bučovice",
-      "StateOrProvince": "Jihovýchod",
-      "Postcode": "685 01",
-      "CountryID": 64,
-      "Country": {
-        "ISOCode": "CZ",
-        "ContinentCode": "EU",
-        "ID": 64,
-        "Title": "Czech Republic"
+      "OperatorInfo": {
+        "WebsiteURL": "https://kpb.power2ride.cz/",
+        "Comments": null,
+        "PhonePrimaryContact": null,
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": false,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": "info@power2ride.cz",
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": false,
+        "ID": 3804,
+        "Title": "KRB Intra (cz)"
       },
-      "Latitude": 49.1517410914133,
-      "Longitude": 17.001451118915412,
-      "ContactTelephone1": null,
-      "ContactTelephone2": null,
-      "ContactEmail": null,
-      "AccessComments": null,
-      "RelatedURL": null,
-      "Distance": null,
-      "DistanceUnit": 0
-    },
-    "Connections": [
-      {
-        "ID": 566233,
-        "ConnectionTypeID": 1036,
-        "ConnectionType": {
-          "FormalName": "IEC 62196-2",
-          "IsDiscontinued": false,
-          "IsObsolete": false,
-          "ID": 1036,
-          "Title": "Type 2 (Tethered Connector) "
-        },
-        "Reference": null,
-        "StatusTypeID": 50,
-        "StatusType": {
-          "IsOperational": true,
-          "IsUserSelectable": true,
-          "ID": 50,
-          "Title": "Operational"
-        },
-        "LevelID": 2,
-        "Level": {
-          "Comments": "Over 2 kW, usually non-domestic socket type",
-          "IsFastChargeCapable": false,
-          "ID": 2,
-          "Title": "Level 2 : Medium (Over 2kW)"
-        },
-        "Amps": 32,
-        "Voltage": 400,
-        "PowerKW": 22,
-        "CurrentTypeID": 20,
-        "CurrentType": {
-          "Description": "Alternating Current - Three Phase",
-          "ID": 20,
-          "Title": "AC (Three-Phase)"
-        },
-        "Quantity": 1,
-        "Comments": null
-      },
-      {
-        "ID": 566234,
-        "ConnectionTypeID": 25,
-        "ConnectionType": {
-          "FormalName": "IEC 62196-2 Type 2",
-          "IsDiscontinued": false,
-          "IsObsolete": false,
-          "ID": 25,
-          "Title": "Type 2 (Socket Only)"
-        },
-        "Reference": null,
-        "StatusTypeID": 50,
-        "StatusType": {
-          "IsOperational": true,
-          "IsUserSelectable": true,
-          "ID": 50,
-          "Title": "Operational"
-        },
-        "LevelID": 2,
-        "Level": {
-          "Comments": "Over 2 kW, usually non-domestic socket type",
-          "IsFastChargeCapable": false,
-          "ID": 2,
-          "Title": "Level 2 : Medium (Over 2kW)"
-        },
-        "Amps": 32,
-        "Voltage": 400,
-        "PowerKW": 22,
-        "CurrentTypeID": 20,
-        "CurrentType": {
-          "Description": "Alternating Current - Three Phase",
-          "ID": 20,
-          "Title": "AC (Three-Phase)"
-        },
-        "Quantity": 1,
-        "Comments": null
-      }
-    ],
-    "NumberOfPoints": 2,
-    "GeneralComments": null,
-    "DatePlanned": null,
-    "DateLastConfirmed": null,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-07-30T09:27:00Z",
-    "MetadataValues": null,
-    "DataQualityLevel": 1,
-    "DateCreated": "2024-07-30T09:27:00Z",
-    "SubmissionStatusTypeID": 200
-  },
-  {
-    "DataProvider": {
-      "WebsiteURL": "http://openchargemap.org",
-      "Comments": null,
-      "DataProviderStatusType": {
-        "IsProviderEnabled": true,
+      "UsageType": {
+        "IsPayAtLocation": null,
+        "IsMembershipRequired": null,
+        "IsAccessKeyRequired": null,
         "ID": 1,
-        "Title": "Manual Data Entry"
+        "Title": "Public"
       },
-      "IsRestrictedEdit": false,
-      "IsOpenDataLicensed": true,
-      "IsApprovedImport": true,
-      "License": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
-      "DateLastImported": null,
-      "ID": 1,
-      "Title": "Open Charge Map Contributors"
-    },
-    "OperatorInfo": {
-      "WebsiteURL": null,
-      "Comments": null,
-      "PhonePrimaryContact": null,
-      "PhoneSecondaryContact": null,
-      "IsPrivateIndividual": null,
-      "AddressInfo": null,
-      "BookingURL": null,
-      "ContactEmail": null,
-      "FaultReportEmail": null,
-      "IsRestrictedEdit": null,
-      "ID": 1,
-      "Title": "(Unknown Operator)"
-    },
-    "UsageType": {
-      "IsPayAtLocation": false,
-      "IsMembershipRequired": true,
-      "IsAccessKeyRequired": true,
-      "ID": 4,
-      "Title": "Public - Membership Required"
-    },
-    "StatusType": {
-      "IsOperational": true,
-      "IsUserSelectable": true,
-      "ID": 50,
-      "Title": "Operational"
-    },
-    "SubmissionStatus": {
-      "IsLive": true,
-      "ID": 200,
-      "Title": "Submission Published"
-    },
-    "UserComments": null,
-    "PercentageSimilarity": null,
-    "MediaItems": null,
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2024-07-30T09:21:00Z",
-    "ID": 302185,
-    "UUID": "62F0AC99-D700-43CD-9E92-7309CDB5B3AD",
-    "ParentChargePointID": null,
-    "DataProviderID": 1,
-    "DataProvidersReference": null,
-    "OperatorID": 1,
-    "OperatorsReference": null,
-    "UsageTypeID": 4,
-    "UsageCost": null,
-    "AddressInfo": {
-      "ID": 302572,
-      "Title": "Carretera Cangas de Onís - Panes",
-      "AddressLine1": "Carretera Cangas de Onís - Panes",
-      "AddressLine2": null,
-      "Town": null,
-      "StateOrProvince": null,
-      "Postcode": "33556",
-      "CountryID": 210,
-      "Country": {
-        "ISOCode": "ES",
-        "ContinentCode": "EU",
-        "ID": 210,
-        "Title": "Spain"
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
       },
-      "Latitude": 43.33594433536851,
-      "Longitude": -4.964985993524806,
-      "ContactTelephone1": null,
-      "ContactTelephone2": null,
-      "ContactEmail": null,
-      "AccessComments": null,
-      "RelatedURL": null,
-      "Distance": null,
-      "DistanceUnit": 0
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "MediaItems": null,
+      "IsRecentlyVerified": true,
+      "DateLastVerified": "2024-07-30T09:27:00Z",
+      "ID": 302187,
+      "UUID": "7F17D4B1-09B6-4ED7-BD1F-28A09B754087",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvidersReference": null,
+      "OperatorID": 3804,
+      "OperatorsReference": null,
+      "UsageTypeID": 1,
+      "UsageCost": "4,99 Kč/kWh",
+      "AddressInfo": {
+        "ID": 302574,
+        "Title": "Slavkovská",
+        "AddressLine1": "Slavkovská",
+        "AddressLine2": "Bučovice",
+        "Town": "Bučovice",
+        "StateOrProvince": "Jihovýchod",
+        "Postcode": "685 01",
+        "CountryID": 64,
+        "Country": {
+          "ISOCode": "CZ",
+          "ContinentCode": "EU",
+          "ID": 64,
+          "Title": "Czech Republic"
+        },
+        "Latitude": 49.1517410914133,
+        "Longitude": 17.001451118915412,
+        "ContactTelephone1": null,
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": null,
+        "RelatedURL": null,
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "Connections": [
+        {
+          "ID": 566233,
+          "ConnectionTypeID": 1036,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-2",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 1036,
+            "Title": "Type 2 (Tethered Connector) "
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": false,
+            "ID": 2,
+            "Title": "Level 2 : Medium (Over 2kW)"
+          },
+          "Amps": 32,
+          "Voltage": 400,
+          "PowerKW": 22,
+          "CurrentTypeID": 20,
+          "CurrentType": {
+            "Description": "Alternating Current - Three Phase",
+            "ID": 20,
+            "Title": "AC (Three-Phase)"
+          },
+          "Quantity": 1,
+          "Comments": null
+        },
+        {
+          "ID": 566234,
+          "ConnectionTypeID": 25,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-2 Type 2",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 25,
+            "Title": "Type 2 (Socket Only)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": false,
+            "ID": 2,
+            "Title": "Level 2 : Medium (Over 2kW)"
+          },
+          "Amps": 32,
+          "Voltage": 400,
+          "PowerKW": 22,
+          "CurrentTypeID": 20,
+          "CurrentType": {
+            "Description": "Alternating Current - Three Phase",
+            "ID": 20,
+            "Title": "AC (Three-Phase)"
+          },
+          "Quantity": 1,
+          "Comments": null
+        }
+      ],
+      "NumberOfPoints": 2,
+      "GeneralComments": null,
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "DateLastStatusUpdate": "2024-07-30T09:27:00Z",
+      "MetadataValues": null,
+      "DataQualityLevel": 1,
+      "DateCreated": "2024-07-30T09:27:00Z",
+      "SubmissionStatusTypeID": 200
     },
-    "Connections": [
-      {
-        "ID": 566227,
-        "ConnectionTypeID": 33,
-        "ConnectionType": {
-          "FormalName": "IEC 62196-3 Configuration FF",
-          "IsDiscontinued": false,
-          "IsObsolete": false,
-          "ID": 33,
-          "Title": "CCS (Type 2)"
+    {
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
         },
-        "Reference": null,
-        "StatusTypeID": 50,
-        "StatusType": {
-          "IsOperational": true,
-          "IsUserSelectable": true,
-          "ID": 50,
-          "Title": "Operational"
-        },
-        "LevelID": null,
-        "Level": null,
-        "Amps": null,
-        "Voltage": null,
-        "PowerKW": null,
-        "CurrentTypeID": null,
-        "CurrentType": null,
-        "Quantity": 1,
-        "Comments": null
-      }
-    ],
-    "NumberOfPoints": 1,
-    "GeneralComments": null,
-    "DatePlanned": null,
-    "DateLastConfirmed": null,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-07-30T09:21:00Z",
-    "MetadataValues": null,
-    "DataQualityLevel": 1,
-    "DateCreated": "2024-07-30T08:05:00Z",
-    "SubmissionStatusTypeID": 200
-  },
-  {
-    "DataProvider": {
-      "WebsiteURL": "http://openchargemap.org",
-      "Comments": null,
-      "DataProviderStatusType": {
-        "IsProviderEnabled": true,
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "DateLastImported": null,
         "ID": 1,
-        "Title": "Manual Data Entry"
+        "Title": "Open Charge Map Contributors"
       },
-      "IsRestrictedEdit": false,
-      "IsOpenDataLicensed": true,
-      "IsApprovedImport": true,
-      "License": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
-      "DateLastImported": null,
-      "ID": 1,
-      "Title": "Open Charge Map Contributors"
-    },
-    "OperatorInfo": {
-      "WebsiteURL": "https://kpb.power2ride.cz/",
-      "Comments": null,
-      "PhonePrimaryContact": null,
-      "PhoneSecondaryContact": null,
-      "IsPrivateIndividual": false,
-      "AddressInfo": null,
-      "BookingURL": null,
-      "ContactEmail": "info@power2ride.cz",
-      "FaultReportEmail": null,
-      "IsRestrictedEdit": false,
-      "ID": 3804,
-      "Title": "KRB Intra (cz)"
-    },
-    "UsageType": {
-      "IsPayAtLocation": null,
-      "IsMembershipRequired": null,
-      "IsAccessKeyRequired": null,
-      "ID": 1,
-      "Title": "Public"
-    },
-    "StatusType": {
-      "IsOperational": true,
-      "IsUserSelectable": true,
-      "ID": 50,
-      "Title": "Operational"
-    },
-    "SubmissionStatus": {
-      "IsLive": true,
-      "ID": 200,
-      "Title": "Submission Published"
-    },
-    "UserComments": null,
-    "PercentageSimilarity": null,
-    "MediaItems": null,
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2024-07-30T09:17:00Z",
-    "ID": 302184,
-    "UUID": "F673DDA5-537D-487B-A0C6-CFC8CA97F865",
-    "ParentChargePointID": null,
-    "DataProviderID": 1,
-    "DataProvidersReference": null,
-    "OperatorID": 3804,
-    "OperatorsReference": null,
-    "UsageTypeID": 1,
-    "UsageCost": null,
-    "AddressInfo": {
-      "ID": 302571,
-      "Title": "DC Charger KPB Intra",
-      "AddressLine1": "Marefy 152",
-      "AddressLine2": null,
-      "Town": "Bučovice",
-      "StateOrProvince": null,
-      "Postcode": "68501",
-      "CountryID": 64,
-      "Country": {
-        "ISOCode": "CZ",
-        "ContinentCode": "EU",
-        "ID": 64,
-        "Title": "Czech Republic"
-      },
-      "Latitude": 49.151438524616026,
-      "Longitude": 16.97213066842923,
-      "ContactTelephone1": "+420 515 200 373",
-      "ContactTelephone2": null,
-      "ContactEmail": null,
-      "AccessComments": "Gas station APH In, parking lot behind main building",
-      "RelatedURL": "https://kpb.power2ride.cz/",
-      "Distance": null,
-      "DistanceUnit": 0
-    },
-    "Connections": [
-      {
-        "ID": 566225,
-        "ConnectionTypeID": 33,
-        "ConnectionType": {
-          "FormalName": "IEC 62196-3 Configuration FF",
-          "IsDiscontinued": false,
-          "IsObsolete": false,
-          "ID": 33,
-          "Title": "CCS (Type 2)"
-        },
-        "Reference": null,
-        "StatusTypeID": 50,
-        "StatusType": {
-          "IsOperational": true,
-          "IsUserSelectable": true,
-          "ID": 50,
-          "Title": "Operational"
-        },
-        "LevelID": 3,
-        "Level": {
-          "Comments": "40KW and Higher",
-          "IsFastChargeCapable": true,
-          "ID": 3,
-          "Title": "Level 3:  High (Over 40kW)"
-        },
-        "Amps": null,
-        "Voltage": null,
-        "PowerKW": 50,
-        "CurrentTypeID": 30,
-        "CurrentType": {
-          "Description": "Direct Current",
-          "ID": 30,
-          "Title": "DC"
-        },
-        "Quantity": 1,
-        "Comments": null
-      },
-      {
-        "ID": 566226,
-        "ConnectionTypeID": 1036,
-        "ConnectionType": {
-          "FormalName": "IEC 62196-2",
-          "IsDiscontinued": false,
-          "IsObsolete": false,
-          "ID": 1036,
-          "Title": "Type 2 (Tethered Connector) "
-        },
-        "Reference": null,
-        "StatusTypeID": 50,
-        "StatusType": {
-          "IsOperational": true,
-          "IsUserSelectable": true,
-          "ID": 50,
-          "Title": "Operational"
-        },
-        "LevelID": 2,
-        "Level": {
-          "Comments": "Over 2 kW, usually non-domestic socket type",
-          "IsFastChargeCapable": false,
-          "ID": 2,
-          "Title": "Level 2 : Medium (Over 2kW)"
-        },
-        "Amps": null,
-        "Voltage": null,
-        "PowerKW": 22,
-        "CurrentTypeID": 20,
-        "CurrentType": {
-          "Description": "Alternating Current - Three Phase",
-          "ID": 20,
-          "Title": "AC (Three-Phase)"
-        },
-        "Quantity": 1,
-        "Comments": null
-      }
-    ],
-    "NumberOfPoints": 1,
-    "GeneralComments": null,
-    "DatePlanned": null,
-    "DateLastConfirmed": null,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-07-30T09:17:00Z",
-    "MetadataValues": null,
-    "DataQualityLevel": 1,
-    "DateCreated": "2024-07-30T07:20:00Z",
-    "SubmissionStatusTypeID": 200
-  },
-  {
-    "DataProvider": {
-      "WebsiteURL": "http://openchargemap.org",
-      "Comments": null,
-      "DataProviderStatusType": {
-        "IsProviderEnabled": true,
+      "OperatorInfo": {
+        "WebsiteURL": null,
+        "Comments": null,
+        "PhonePrimaryContact": null,
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": null,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": null,
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": null,
         "ID": 1,
-        "Title": "Manual Data Entry"
+        "Title": "(Unknown Operator)"
       },
-      "IsRestrictedEdit": false,
-      "IsOpenDataLicensed": true,
-      "IsApprovedImport": true,
-      "License": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
-      "DateLastImported": null,
-      "ID": 1,
-      "Title": "Open Charge Map Contributors"
-    },
-    "OperatorInfo": {
-      "WebsiteURL": "https://kpb.power2ride.cz/",
-      "Comments": null,
-      "PhonePrimaryContact": null,
-      "PhoneSecondaryContact": null,
-      "IsPrivateIndividual": false,
-      "AddressInfo": null,
-      "BookingURL": null,
-      "ContactEmail": "info@power2ride.cz",
-      "FaultReportEmail": null,
-      "IsRestrictedEdit": false,
-      "ID": 3804,
-      "Title": "KRB Intra (cz)"
-    },
-    "UsageType": {
-      "IsPayAtLocation": null,
-      "IsMembershipRequired": null,
-      "IsAccessKeyRequired": null,
-      "ID": 1,
-      "Title": "Public"
-    },
-    "StatusType": {
-      "IsOperational": true,
-      "IsUserSelectable": true,
-      "ID": 50,
-      "Title": "Operational"
-    },
-    "SubmissionStatus": {
-      "IsLive": true,
-      "ID": 200,
-      "Title": "Submission Published"
-    },
-    "UserComments": null,
-    "PercentageSimilarity": null,
-    "MediaItems": null,
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2024-07-30T09:28:00Z",
-    "ID": 302183,
-    "UUID": "09A258F9-33CE-4752-BA50-FE76247BA7BA",
-    "ParentChargePointID": null,
-    "DataProviderID": 1,
-    "DataProvidersReference": null,
-    "OperatorID": 3804,
-    "OperatorsReference": null,
-    "UsageTypeID": 1,
-    "UsageCost": "5,99 Kč/kWh",
-    "AddressInfo": {
-      "ID": 302570,
-      "Title": "KPB Intra s.r.o.",
-      "AddressLine1": "Ždánská 477",
-      "AddressLine2": null,
-      "Town": "Bučovice",
-      "StateOrProvince": null,
-      "Postcode": "68501",
-      "CountryID": 64,
-      "Country": {
-        "ISOCode": "CZ",
-        "ContinentCode": "EU",
-        "ID": 64,
-        "Title": "Czech Republic"
+      "UsageType": {
+        "IsPayAtLocation": false,
+        "IsMembershipRequired": true,
+        "IsAccessKeyRequired": true,
+        "ID": 4,
+        "Title": "Public - Membership Required"
       },
-      "Latitude": 49.14049309446216,
-      "Longitude": 17.00177058600798,
-      "ContactTelephone1": "+420 515 200 373",
-      "ContactTelephone2": null,
-      "ContactEmail": null,
-      "AccessComments": "Behind fence, outisde of company KPB Intra. Acces fom road, trough open gate.",
-      "RelatedURL": "https://kpb.power2ride.cz/",
-      "Distance": null,
-      "DistanceUnit": 0
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
+      },
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "MediaItems": null,
+      "IsRecentlyVerified": true,
+      "DateLastVerified": "2024-07-30T09:21:00Z",
+      "ID": 302185,
+      "UUID": "62F0AC99-D700-43CD-9E92-7309CDB5B3AD",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvidersReference": null,
+      "OperatorID": 1,
+      "OperatorsReference": null,
+      "UsageTypeID": 4,
+      "UsageCost": null,
+      "AddressInfo": {
+        "ID": 302572,
+        "Title": "Carretera Cangas de Onís - Panes",
+        "AddressLine1": "Carretera Cangas de Onís - Panes",
+        "AddressLine2": null,
+        "Town": null,
+        "StateOrProvince": null,
+        "Postcode": "33556",
+        "CountryID": 210,
+        "Country": {
+          "ISOCode": "ES",
+          "ContinentCode": "EU",
+          "ID": 210,
+          "Title": "Spain"
+        },
+        "Latitude": 43.33594433536851,
+        "Longitude": -4.964985993524806,
+        "ContactTelephone1": null,
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": null,
+        "RelatedURL": null,
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "Connections": [
+        {
+          "ID": 566227,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-3 Configuration FF",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": null,
+          "Level": null,
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": null,
+          "CurrentTypeID": null,
+          "CurrentType": null,
+          "Quantity": 1,
+          "Comments": null
+        }
+      ],
+      "NumberOfPoints": 1,
+      "GeneralComments": null,
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "DateLastStatusUpdate": "2024-07-30T09:21:00Z",
+      "MetadataValues": null,
+      "DataQualityLevel": 1,
+      "DateCreated": "2024-07-30T08:05:00Z",
+      "SubmissionStatusTypeID": 200
     },
-    "Connections": [
-      {
-        "ID": 566224,
-        "ConnectionTypeID": 1036,
-        "ConnectionType": {
-          "FormalName": "IEC 62196-2",
-          "IsDiscontinued": false,
-          "IsObsolete": false,
-          "ID": 1036,
-          "Title": "Type 2 (Tethered Connector) "
+    {
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
         },
-        "Reference": null,
-        "StatusTypeID": 50,
-        "StatusType": {
-          "IsOperational": true,
-          "IsUserSelectable": true,
-          "ID": 50,
-          "Title": "Operational"
-        },
-        "LevelID": 2,
-        "Level": {
-          "Comments": "Over 2 kW, usually non-domestic socket type",
-          "IsFastChargeCapable": false,
-          "ID": 2,
-          "Title": "Level 2 : Medium (Over 2kW)"
-        },
-        "Amps": 32,
-        "Voltage": 400,
-        "PowerKW": 22,
-        "CurrentTypeID": 20,
-        "CurrentType": {
-          "Description": "Alternating Current - Three Phase",
-          "ID": 20,
-          "Title": "AC (Three-Phase)"
-        },
-        "Quantity": 2,
-        "Comments": null
-      }
-    ],
-    "NumberOfPoints": 2,
-    "GeneralComments": null,
-    "DatePlanned": null,
-    "DateLastConfirmed": null,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-07-30T09:28:00Z",
-    "MetadataValues": null,
-    "DataQualityLevel": 1,
-    "DateCreated": "2024-07-30T07:15:00Z",
-    "SubmissionStatusTypeID": 200
-  },
-  {
-    "DataProvider": {
-      "WebsiteURL": "http://openchargemap.org",
-      "Comments": null,
-      "DataProviderStatusType": {
-        "IsProviderEnabled": true,
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "DateLastImported": null,
         "ID": 1,
-        "Title": "Manual Data Entry"
+        "Title": "Open Charge Map Contributors"
       },
-      "IsRestrictedEdit": false,
-      "IsOpenDataLicensed": true,
-      "IsApprovedImport": true,
-      "License": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
-      "DateLastImported": null,
-      "ID": 1,
-      "Title": "Open Charge Map Contributors"
-    },
-    "OperatorInfo": {
-      "WebsiteURL": null,
-      "Comments": null,
-      "PhonePrimaryContact": null,
-      "PhoneSecondaryContact": null,
-      "IsPrivateIndividual": null,
-      "AddressInfo": null,
-      "BookingURL": null,
-      "ContactEmail": null,
-      "FaultReportEmail": null,
-      "IsRestrictedEdit": null,
-      "ID": 1,
-      "Title": "(Unknown Operator)"
-    },
-    "UsageType": {
-      "IsPayAtLocation": null,
-      "IsMembershipRequired": null,
-      "IsAccessKeyRequired": null,
-      "ID": 1,
-      "Title": "Public"
-    },
-    "StatusType": {
-      "IsOperational": true,
-      "IsUserSelectable": true,
-      "ID": 50,
-      "Title": "Operational"
-    },
-    "SubmissionStatus": {
-      "IsLive": true,
-      "ID": 200,
-      "Title": "Submission Published"
-    },
-    "UserComments": null,
-    "PercentageSimilarity": null,
-    "MediaItems": null,
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2024-07-30T09:21:00Z",
-    "ID": 302182,
-    "UUID": "61852A39-0BA4-49BC-B63B-5ED20677DE2E",
-    "ParentChargePointID": null,
-    "DataProviderID": 1,
-    "DataProvidersReference": null,
-    "OperatorID": 1,
-    "OperatorsReference": null,
-    "UsageTypeID": 1,
-    "UsageCost": "free mall charging",
-    "AddressInfo": {
-      "ID": 302569,
-      "Title": "Don Aniceto Gueco Avenue",
-      "AddressLine1": "Don Aniceto Gueco Avenue",
-      "AddressLine2": "Ninoy Aquino",
-      "Town": "Angeles",
-      "StateOrProvince": null,
-      "Postcode": "2009",
-      "CountryID": 177,
-      "Country": {
-        "ISOCode": "PH",
-        "ContinentCode": "AS",
-        "ID": 177,
-        "Title": "Philippines"
+      "OperatorInfo": {
+        "WebsiteURL": "https://kpb.power2ride.cz/",
+        "Comments": null,
+        "PhonePrimaryContact": null,
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": false,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": "info@power2ride.cz",
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": false,
+        "ID": 3804,
+        "Title": "KRB Intra (cz)"
       },
-      "Latitude": 15.162681079929866,
-      "Longitude": 120.61096489998846,
-      "ContactTelephone1": null,
-      "ContactTelephone2": null,
-      "ContactEmail": null,
-      "AccessComments": null,
-      "RelatedURL": null,
-      "Distance": null,
-      "DistanceUnit": 0
-    },
-    "Connections": [
-      {
-        "ID": 566223,
-        "ConnectionTypeID": 25,
-        "ConnectionType": {
-          "FormalName": "IEC 62196-2 Type 2",
-          "IsDiscontinued": false,
-          "IsObsolete": false,
-          "ID": 25,
-          "Title": "Type 2 (Socket Only)"
-        },
-        "Reference": null,
-        "StatusTypeID": 50,
-        "StatusType": {
-          "IsOperational": true,
-          "IsUserSelectable": true,
-          "ID": 50,
-          "Title": "Operational"
-        },
-        "LevelID": 2,
-        "Level": {
-          "Comments": "Over 2 kW, usually non-domestic socket type",
-          "IsFastChargeCapable": false,
-          "ID": 2,
-          "Title": "Level 2 : Medium (Over 2kW)"
-        },
-        "Amps": null,
-        "Voltage": null,
-        "PowerKW": 22,
-        "CurrentTypeID": 20,
-        "CurrentType": {
-          "Description": "Alternating Current - Three Phase",
-          "ID": 20,
-          "Title": "AC (Three-Phase)"
-        },
-        "Quantity": 2,
-        "Comments": "they have both Type 2 and GBT Cables to choose"
-      },
-      {
-        "ID": 566229,
-        "ConnectionTypeID": 1039,
-        "ConnectionType": {
-          "FormalName": "GB-T AC - GB/T 20234.2 (Tethered Cable)",
-          "IsDiscontinued": false,
-          "IsObsolete": false,
-          "ID": 1039,
-          "Title": "GB-T AC - GB/T 20234.2 (Tethered Cable)"
-        },
-        "Reference": null,
-        "StatusTypeID": 50,
-        "StatusType": {
-          "IsOperational": true,
-          "IsUserSelectable": true,
-          "ID": 50,
-          "Title": "Operational"
-        },
-        "LevelID": 2,
-        "Level": {
-          "Comments": "Over 2 kW, usually non-domestic socket type",
-          "IsFastChargeCapable": false,
-          "ID": 2,
-          "Title": "Level 2 : Medium (Over 2kW)"
-        },
-        "Amps": null,
-        "Voltage": null,
-        "PowerKW": 22,
-        "CurrentTypeID": 20,
-        "CurrentType": {
-          "Description": "Alternating Current - Three Phase",
-          "ID": 20,
-          "Title": "AC (Three-Phase)"
-        },
-        "Quantity": 2,
-        "Comments": null
-      }
-    ],
-    "NumberOfPoints": 1,
-    "GeneralComments": null,
-    "DatePlanned": null,
-    "DateLastConfirmed": null,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-07-30T09:21:00Z",
-    "MetadataValues": null,
-    "DataQualityLevel": 1,
-    "DateCreated": "2024-07-30T06:50:00Z",
-    "SubmissionStatusTypeID": 200
-  },
-  {
-    "DataProvider": {
-      "WebsiteURL": "http://openchargemap.org",
-      "Comments": null,
-      "DataProviderStatusType": {
-        "IsProviderEnabled": true,
+      "UsageType": {
+        "IsPayAtLocation": null,
+        "IsMembershipRequired": null,
+        "IsAccessKeyRequired": null,
         "ID": 1,
-        "Title": "Manual Data Entry"
+        "Title": "Public"
       },
-      "IsRestrictedEdit": false,
-      "IsOpenDataLicensed": true,
-      "IsApprovedImport": true,
-      "License": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
-      "DateLastImported": null,
-      "ID": 1,
-      "Title": "Open Charge Map Contributors"
-    },
-    "OperatorInfo": {
-      "WebsiteURL": "https://www.tesla.com/en_AU/support/non-tesla-supercharging",
-      "Comments": "Tesla charging including support for non-tesla vehicles",
-      "PhonePrimaryContact": null,
-      "PhoneSecondaryContact": null,
-      "IsPrivateIndividual": false,
-      "AddressInfo": null,
-      "BookingURL": null,
-      "ContactEmail": null,
-      "FaultReportEmail": null,
-      "IsRestrictedEdit": false,
-      "ID": 3534,
-      "Title": "Tesla (including non-tesla)"
-    },
-    "UsageType": {
-      "IsPayAtLocation": false,
-      "IsMembershipRequired": true,
-      "IsAccessKeyRequired": true,
-      "ID": 4,
-      "Title": "Public - Membership Required"
-    },
-    "StatusType": {
-      "IsOperational": true,
-      "IsUserSelectable": true,
-      "ID": 50,
-      "Title": "Operational"
-    },
-    "SubmissionStatus": {
-      "IsLive": true,
-      "ID": 200,
-      "Title": "Submission Published"
-    },
-    "UserComments": null,
-    "PercentageSimilarity": null,
-    "MediaItems": null,
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2024-07-31T08:15:00Z",
-    "ID": 302173,
-    "UUID": "5A728247-E292-458D-9831-9FD98E85BDBF",
-    "ParentChargePointID": null,
-    "DataProviderID": 1,
-    "DataProvidersReference": null,
-    "OperatorID": 3534,
-    "OperatorsReference": null,
-    "UsageTypeID": 4,
-    "UsageCost": "20:00-16:00 € 0.43/kWh  16:00-20:00 € 0.48/kWh",
-    "AddressInfo": {
-      "ID": 302560,
-      "Title": "Supercharger Tesla Bolzano",
-      "AddressLine1": "Via Galileo Galilei - Galileo-Galilei-Straße",
-      "AddressLine2": "Oltrisarco-Aslago - Oberau-Haslach",
-      "Town": "BolBolzano ",
-      "StateOrProvince": "Trentino-Alto Adige/Südtirol",
-      "Postcode": "39100",
-      "CountryID": 112,
-      "Country": {
-        "ISOCode": "IT",
-        "ContinentCode": "EU",
-        "ID": 112,
-        "Title": "Italy"
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
       },
-      "Latitude": 46.48625977822638,
-      "Longitude": 11.336527252121641,
-      "ContactTelephone1": null,
-      "ContactTelephone2": null,
-      "ContactEmail": null,
-      "AccessComments": null,
-      "RelatedURL": null,
-      "Distance": null,
-      "DistanceUnit": 0
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "MediaItems": null,
+      "IsRecentlyVerified": true,
+      "DateLastVerified": "2024-07-30T09:17:00Z",
+      "ID": 302184,
+      "UUID": "F673DDA5-537D-487B-A0C6-CFC8CA97F865",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvidersReference": null,
+      "OperatorID": 3804,
+      "OperatorsReference": null,
+      "UsageTypeID": 1,
+      "UsageCost": null,
+      "AddressInfo": {
+        "ID": 302571,
+        "Title": "DC Charger KPB Intra",
+        "AddressLine1": "Marefy 152",
+        "AddressLine2": null,
+        "Town": "Bučovice",
+        "StateOrProvince": null,
+        "Postcode": "68501",
+        "CountryID": 64,
+        "Country": {
+          "ISOCode": "CZ",
+          "ContinentCode": "EU",
+          "ID": 64,
+          "Title": "Czech Republic"
+        },
+        "Latitude": 49.151438524616026,
+        "Longitude": 16.97213066842923,
+        "ContactTelephone1": "+420 515 200 373",
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": "Gas station APH In, parking lot behind main building",
+        "RelatedURL": "https://kpb.power2ride.cz/",
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "Connections": [
+        {
+          "ID": 566225,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-3 Configuration FF",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 50,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": null
+        },
+        {
+          "ID": 566226,
+          "ConnectionTypeID": 1036,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-2",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 1036,
+            "Title": "Type 2 (Tethered Connector) "
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": false,
+            "ID": 2,
+            "Title": "Level 2 : Medium (Over 2kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 22,
+          "CurrentTypeID": 20,
+          "CurrentType": {
+            "Description": "Alternating Current - Three Phase",
+            "ID": 20,
+            "Title": "AC (Three-Phase)"
+          },
+          "Quantity": 1,
+          "Comments": null
+        }
+      ],
+      "NumberOfPoints": 1,
+      "GeneralComments": null,
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "DateLastStatusUpdate": "2024-07-30T09:17:00Z",
+      "MetadataValues": null,
+      "DataQualityLevel": 1,
+      "DateCreated": "2024-07-30T07:20:00Z",
+      "SubmissionStatusTypeID": 200
     },
-    "Connections": [
-      {
-        "ID": 566107,
-        "ConnectionTypeID": 33,
-        "ConnectionType": {
-          "FormalName": "IEC 62196-3 Configuration FF",
-          "IsDiscontinued": false,
-          "IsObsolete": false,
-          "ID": 33,
-          "Title": "CCS (Type 2)"
+    {
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
         },
-        "Reference": null,
-        "StatusTypeID": 50,
-        "StatusType": {
-          "IsOperational": true,
-          "IsUserSelectable": true,
-          "ID": 50,
-          "Title": "Operational"
-        },
-        "LevelID": 3,
-        "Level": {
-          "Comments": "40KW and Higher",
-          "IsFastChargeCapable": true,
-          "ID": 3,
-          "Title": "Level 3:  High (Over 40kW)"
-        },
-        "Amps": null,
-        "Voltage": null,
-        "PowerKW": 250,
-        "CurrentTypeID": 30,
-        "CurrentType": {
-          "Description": "Direct Current",
-          "ID": 30,
-          "Title": "DC"
-        },
-        "Quantity": 12,
-        "Comments": null
-      }
-    ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "P1 parking inside shopping center",
-    "DatePlanned": null,
-    "DateLastConfirmed": null,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-07-31T08:15:00Z",
-    "MetadataValues": null,
-    "DataQualityLevel": 1,
-    "DateCreated": "2024-07-30T02:47:00Z",
-    "SubmissionStatusTypeID": 200
-  },
-  {
-    "DataProvider": {
-      "WebsiteURL": "http://openchargemap.org",
-      "Comments": null,
-      "DataProviderStatusType": {
-        "IsProviderEnabled": true,
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "DateLastImported": null,
         "ID": 1,
-        "Title": "Manual Data Entry"
+        "Title": "Open Charge Map Contributors"
       },
-      "IsRestrictedEdit": false,
-      "IsOpenDataLicensed": true,
-      "IsApprovedImport": true,
-      "License": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
-      "DateLastImported": null,
-      "ID": 1,
-      "Title": "Open Charge Map Contributors"
-    },
-    "OperatorInfo": {
-      "WebsiteURL": "https://www.eways.se/",
-      "Comments": null,
-      "PhonePrimaryContact": null,
-      "PhoneSecondaryContact": null,
-      "IsPrivateIndividual": false,
-      "AddressInfo": null,
-      "BookingURL": null,
-      "ContactEmail": null,
-      "FaultReportEmail": null,
-      "IsRestrictedEdit": false,
-      "ID": 3444,
-      "Title": "eways"
-    },
-    "UsageType": {
-      "IsPayAtLocation": null,
-      "IsMembershipRequired": null,
-      "IsAccessKeyRequired": null,
-      "ID": 1,
-      "Title": "Public"
-    },
-    "StatusType": {
-      "IsOperational": true,
-      "IsUserSelectable": true,
-      "ID": 50,
-      "Title": "Operational"
-    },
-    "SubmissionStatus": {
-      "IsLive": true,
-      "ID": 200,
-      "Title": "Submission Published"
-    },
-    "UserComments": null,
-    "PercentageSimilarity": null,
-    "MediaItems": null,
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2024-07-29T22:15:00Z",
-    "ID": 302172,
-    "UUID": "6E57E820-E456-4487-9513-FD0D160ABED7",
-    "ParentChargePointID": null,
-    "DataProviderID": 1,
-    "DataProvidersReference": null,
-    "OperatorID": 3444,
-    "OperatorsReference": null,
-    "UsageTypeID": 1,
-    "UsageCost": null,
-    "AddressInfo": {
-      "ID": 302559,
-      "Title": "Hamnparkeringen",
-      "AddressLine1": "Platensgatan 4",
-      "AddressLine2": null,
-      "Town": "Motala",
-      "StateOrProvince": null,
-      "Postcode": "59135",
-      "CountryID": 216,
-      "Country": {
-        "ISOCode": "SE",
-        "ContinentCode": "EU",
-        "ID": 216,
-        "Title": "Sweden"
+      "OperatorInfo": {
+        "WebsiteURL": "https://kpb.power2ride.cz/",
+        "Comments": null,
+        "PhonePrimaryContact": null,
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": false,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": "info@power2ride.cz",
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": false,
+        "ID": 3804,
+        "Title": "KRB Intra (cz)"
       },
-      "Latitude": 58.5336766014772,
-      "Longitude": 15.036903658818801,
-      "ContactTelephone1": null,
-      "ContactTelephone2": null,
-      "ContactEmail": null,
-      "AccessComments": null,
-      "RelatedURL": null,
-      "Distance": null,
-      "DistanceUnit": 0
+      "UsageType": {
+        "IsPayAtLocation": null,
+        "IsMembershipRequired": null,
+        "IsAccessKeyRequired": null,
+        "ID": 1,
+        "Title": "Public"
+      },
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
+      },
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "MediaItems": null,
+      "IsRecentlyVerified": true,
+      "DateLastVerified": "2024-07-30T09:28:00Z",
+      "ID": 302183,
+      "UUID": "09A258F9-33CE-4752-BA50-FE76247BA7BA",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvidersReference": null,
+      "OperatorID": 3804,
+      "OperatorsReference": null,
+      "UsageTypeID": 1,
+      "UsageCost": "5,99 Kč/kWh",
+      "AddressInfo": {
+        "ID": 302570,
+        "Title": "KPB Intra s.r.o.",
+        "AddressLine1": "Ždánská 477",
+        "AddressLine2": null,
+        "Town": "Bučovice",
+        "StateOrProvince": null,
+        "Postcode": "68501",
+        "CountryID": 64,
+        "Country": {
+          "ISOCode": "CZ",
+          "ContinentCode": "EU",
+          "ID": 64,
+          "Title": "Czech Republic"
+        },
+        "Latitude": 49.14049309446216,
+        "Longitude": 17.00177058600798,
+        "ContactTelephone1": "+420 515 200 373",
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": "Behind fence, outisde of company KPB Intra. Acces fom road, trough open gate.",
+        "RelatedURL": "https://kpb.power2ride.cz/",
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "Connections": [
+        {
+          "ID": 566224,
+          "ConnectionTypeID": 1036,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-2",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 1036,
+            "Title": "Type 2 (Tethered Connector) "
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": false,
+            "ID": 2,
+            "Title": "Level 2 : Medium (Over 2kW)"
+          },
+          "Amps": 32,
+          "Voltage": 400,
+          "PowerKW": 22,
+          "CurrentTypeID": 20,
+          "CurrentType": {
+            "Description": "Alternating Current - Three Phase",
+            "ID": 20,
+            "Title": "AC (Three-Phase)"
+          },
+          "Quantity": 2,
+          "Comments": null
+        }
+      ],
+      "NumberOfPoints": 2,
+      "GeneralComments": null,
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "DateLastStatusUpdate": "2024-07-30T09:28:00Z",
+      "MetadataValues": null,
+      "DataQualityLevel": 1,
+      "DateCreated": "2024-07-30T07:15:00Z",
+      "SubmissionStatusTypeID": 200
     },
-    "Connections": [
-      {
-        "ID": 566106,
-        "ConnectionTypeID": 25,
-        "ConnectionType": {
-          "FormalName": "IEC 62196-2 Type 2",
-          "IsDiscontinued": false,
-          "IsObsolete": false,
-          "ID": 25,
-          "Title": "Type 2 (Socket Only)"
+    {
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
         },
-        "Reference": null,
-        "StatusTypeID": 50,
-        "StatusType": {
-          "IsOperational": true,
-          "IsUserSelectable": true,
-          "ID": 50,
-          "Title": "Operational"
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "DateLastImported": null,
+        "ID": 1,
+        "Title": "Open Charge Map Contributors"
+      },
+      "OperatorInfo": {
+        "WebsiteURL": null,
+        "Comments": null,
+        "PhonePrimaryContact": null,
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": null,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": null,
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": null,
+        "ID": 1,
+        "Title": "(Unknown Operator)"
+      },
+      "UsageType": {
+        "IsPayAtLocation": null,
+        "IsMembershipRequired": null,
+        "IsAccessKeyRequired": null,
+        "ID": 1,
+        "Title": "Public"
+      },
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
+      },
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "MediaItems": null,
+      "IsRecentlyVerified": true,
+      "DateLastVerified": "2024-07-30T09:21:00Z",
+      "ID": 302182,
+      "UUID": "61852A39-0BA4-49BC-B63B-5ED20677DE2E",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvidersReference": null,
+      "OperatorID": 1,
+      "OperatorsReference": null,
+      "UsageTypeID": 1,
+      "UsageCost": "free mall charging",
+      "AddressInfo": {
+        "ID": 302569,
+        "Title": "Don Aniceto Gueco Avenue",
+        "AddressLine1": "Don Aniceto Gueco Avenue",
+        "AddressLine2": "Ninoy Aquino",
+        "Town": "Angeles",
+        "StateOrProvince": null,
+        "Postcode": "2009",
+        "CountryID": 177,
+        "Country": {
+          "ISOCode": "PH",
+          "ContinentCode": "AS",
+          "ID": 177,
+          "Title": "Philippines"
         },
-        "LevelID": null,
-        "Level": null,
-        "Amps": null,
-        "Voltage": null,
-        "PowerKW": null,
-        "CurrentTypeID": 20,
-        "CurrentType": {
-          "Description": "Alternating Current - Three Phase",
-          "ID": 20,
-          "Title": "AC (Three-Phase)"
+        "Latitude": 15.162681079929866,
+        "Longitude": 120.61096489998846,
+        "ContactTelephone1": null,
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": null,
+        "RelatedURL": null,
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "Connections": [
+        {
+          "ID": 566223,
+          "ConnectionTypeID": 25,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-2 Type 2",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 25,
+            "Title": "Type 2 (Socket Only)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": false,
+            "ID": 2,
+            "Title": "Level 2 : Medium (Over 2kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 22,
+          "CurrentTypeID": 20,
+          "CurrentType": {
+            "Description": "Alternating Current - Three Phase",
+            "ID": 20,
+            "Title": "AC (Three-Phase)"
+          },
+          "Quantity": 2,
+          "Comments": "they have both Type 2 and GBT Cables to choose"
         },
-        "Quantity": 12,
-        "Comments": null
-      }
-    ],
-    "NumberOfPoints": 12,
-    "GeneralComments": null,
-    "DatePlanned": null,
-    "DateLastConfirmed": null,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-07-29T22:15:00Z",
-    "MetadataValues": null,
-    "DataQualityLevel": 1,
-    "DateCreated": "2024-07-29T22:15:00Z",
-    "SubmissionStatusTypeID": 200
-  }
-]
+        {
+          "ID": 566229,
+          "ConnectionTypeID": 1039,
+          "ConnectionType": {
+            "FormalName": "GB-T AC - GB/T 20234.2 (Tethered Cable)",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 1039,
+            "Title": "GB-T AC - GB/T 20234.2 (Tethered Cable)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": false,
+            "ID": 2,
+            "Title": "Level 2 : Medium (Over 2kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 22,
+          "CurrentTypeID": 20,
+          "CurrentType": {
+            "Description": "Alternating Current - Three Phase",
+            "ID": 20,
+            "Title": "AC (Three-Phase)"
+          },
+          "Quantity": 2,
+          "Comments": null
+        }
+      ],
+      "NumberOfPoints": 1,
+      "GeneralComments": null,
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "DateLastStatusUpdate": "2024-07-30T09:21:00Z",
+      "MetadataValues": null,
+      "DataQualityLevel": 1,
+      "DateCreated": "2024-07-30T06:50:00Z",
+      "SubmissionStatusTypeID": 200
+    },
+    {
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
+        },
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "DateLastImported": null,
+        "ID": 1,
+        "Title": "Open Charge Map Contributors"
+      },
+      "OperatorInfo": {
+        "WebsiteURL": "https://www.tesla.com/en_AU/support/non-tesla-supercharging",
+        "Comments": "Tesla charging including support for non-tesla vehicles",
+        "PhonePrimaryContact": null,
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": false,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": null,
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": false,
+        "ID": 3534,
+        "Title": "Tesla (including non-tesla)"
+      },
+      "UsageType": {
+        "IsPayAtLocation": false,
+        "IsMembershipRequired": true,
+        "IsAccessKeyRequired": true,
+        "ID": 4,
+        "Title": "Public - Membership Required"
+      },
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
+      },
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "MediaItems": null,
+      "IsRecentlyVerified": true,
+      "DateLastVerified": "2024-07-31T08:15:00Z",
+      "ID": 302173,
+      "UUID": "5A728247-E292-458D-9831-9FD98E85BDBF",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvidersReference": null,
+      "OperatorID": 3534,
+      "OperatorsReference": null,
+      "UsageTypeID": 4,
+      "UsageCost": "20:00-16:00 € 0.43/kWh  16:00-20:00 € 0.48/kWh",
+      "AddressInfo": {
+        "ID": 302560,
+        "Title": "Supercharger Tesla Bolzano",
+        "AddressLine1": "Via Galileo Galilei - Galileo-Galilei-Straße",
+        "AddressLine2": "Oltrisarco-Aslago - Oberau-Haslach",
+        "Town": "BolBolzano ",
+        "StateOrProvince": "Trentino-Alto Adige/Südtirol",
+        "Postcode": "39100",
+        "CountryID": 112,
+        "Country": {
+          "ISOCode": "IT",
+          "ContinentCode": "EU",
+          "ID": 112,
+          "Title": "Italy"
+        },
+        "Latitude": 46.48625977822638,
+        "Longitude": 11.336527252121641,
+        "ContactTelephone1": null,
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": null,
+        "RelatedURL": null,
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "Connections": [
+        {
+          "ID": 566107,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-3 Configuration FF",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 250,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 12,
+          "Comments": null
+        }
+      ],
+      "NumberOfPoints": 1,
+      "GeneralComments": "P1 parking inside shopping center",
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "DateLastStatusUpdate": "2024-07-31T08:15:00Z",
+      "MetadataValues": null,
+      "DataQualityLevel": 1,
+      "DateCreated": "2024-07-30T02:47:00Z",
+      "SubmissionStatusTypeID": 200
+    },
+    {
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
+        },
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "DateLastImported": null,
+        "ID": 1,
+        "Title": "Open Charge Map Contributors"
+      },
+      "OperatorInfo": {
+        "WebsiteURL": "https://www.eways.se/",
+        "Comments": null,
+        "PhonePrimaryContact": null,
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": false,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": null,
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": false,
+        "ID": 3444,
+        "Title": "eways"
+      },
+      "UsageType": {
+        "IsPayAtLocation": null,
+        "IsMembershipRequired": null,
+        "IsAccessKeyRequired": null,
+        "ID": 1,
+        "Title": "Public"
+      },
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
+      },
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "MediaItems": null,
+      "IsRecentlyVerified": true,
+      "DateLastVerified": "2024-07-29T22:15:00Z",
+      "ID": 302172,
+      "UUID": "6E57E820-E456-4487-9513-FD0D160ABED7",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvidersReference": null,
+      "OperatorID": 3444,
+      "OperatorsReference": null,
+      "UsageTypeID": 1,
+      "UsageCost": null,
+      "AddressInfo": {
+        "ID": 302559,
+        "Title": "Hamnparkeringen",
+        "AddressLine1": "Platensgatan 4",
+        "AddressLine2": null,
+        "Town": "Motala",
+        "StateOrProvince": null,
+        "Postcode": "59135",
+        "CountryID": 216,
+        "Country": {
+          "ISOCode": "SE",
+          "ContinentCode": "EU",
+          "ID": 216,
+          "Title": "Sweden"
+        },
+        "Latitude": 58.5336766014772,
+        "Longitude": 15.036903658818801,
+        "ContactTelephone1": null,
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": null,
+        "RelatedURL": null,
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "Connections": [
+        {
+          "ID": 566106,
+          "ConnectionTypeID": 25,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-2 Type 2",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 25,
+            "Title": "Type 2 (Socket Only)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": null,
+          "Level": null,
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": null,
+          "CurrentTypeID": 20,
+          "CurrentType": {
+            "Description": "Alternating Current - Three Phase",
+            "ID": 20,
+            "Title": "AC (Three-Phase)"
+          },
+          "Quantity": 12,
+          "Comments": null
+        }
+      ],
+      "NumberOfPoints": 12,
+      "GeneralComments": null,
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "DateLastStatusUpdate": "2024-07-29T22:15:00Z",
+      "MetadataValues": null,
+      "DataQualityLevel": 1,
+      "DateCreated": "2024-07-29T22:15:00Z",
+      "SubmissionStatusTypeID": 200
+    }
+  ]
+}
