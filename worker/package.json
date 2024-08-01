@@ -24,9 +24,11 @@
     "dotenv": "^16.4.5",
     "kafkajs": "^2.2.4",
     "mongodb": "^6.8.0",
+    "ts-node": "^10.9.2",
     "uuid": "^10.0.0"
   },
   "devDependencies": {
+    "axios-mock-adapter": "^1.22.0",
     "@types/jest": "^29.5.12",
     "@types/node": "^20.14.12",
     "@types/uuid": "^10.0.0",
