@@ -26,8 +26,6 @@ services:
     build: ./worker
     env_file:
       - .env.test
-    environment:
-      API_URL: mock_server_test:3000/poi
     command: npm run start
     networks:
       - mynetwork_test
